@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "name": "Winterfell-inspired Northern Fortress",
+  "generator": "tools/blender/generate.py",
+  "blenderVersion": "5.2.2 LTS",
+  "seed": 827,
+  "units": "metres",
+  "upAxis": "Y",
+  "source": "artifacts/winterfell_fortress.blend",
+  "scene": "winterfell_fortress.glb",
+  "lods": [
+    {
+      "level": 0,
+      "url": "winterfell_fortress.glb",
+      "triangles": 58848
+    },
+    {
+      "level": 1,
+      "url": "winterfell_fortress_lod1.glb",
+      "decimationRatio": 0.45
+    }
+  ],
+  "modules": {
+    "wall_module": "wall_module.glb",
+    "tower_shaft": "tower_shaft.glb",
+    "barrel": "barrel.glb",
+    "crate": "crate.glb"
+  },
+  "collision": "collision.json",
+  "materials": [
+    "AgedStone",
+    "CutStone",
+    "WeatheredWood",
+    "DarkIron",
+    "Snow",
+    "FrozenGround",
+    "SlateRoof",
+    "Gravel",
+    "StarkBanner",
+    "WindowRecess",
+    "Ember"
+  ],
+  "textureResolution": 256,
+  "visualObjects": 1646,
+  "uniqueSourceMeshes": 478,
+  "renderMeshes": 11,
+  "collisionProxies": 129,
+  "sourceLicense": "Original procedural architecture. No extracted game assets.",
+  "preview": "/assets/winterfell/overview.png",
+  "generationSeconds": 35.99
+}

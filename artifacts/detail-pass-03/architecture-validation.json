@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "layoutPreserved": true,
+  "detailCounts": {
+    "buildingsDetailed": 31,
+    "wallModulesDetailed": 250,
+    "towersDetailed": 31,
+    "windows": 1388,
+    "doors": 32,
+    "chimneys": 27,
+    "dormers": 14,
+    "gatehouses": 3,
+    "stairs": 2,
+    "roofVariants": {
+      "gable": 28,
+      "hipped": 3,
+      "clerestory": 2
+    }
+  },
+  "innerWallAccess": [
+    -63.74999999999979,
+    14.88,
+    -71.59999999999802
+  ],
+  "outerWallAccess": [
+    -22.000000000000554,
+    11.950000000000001,
+    -93.74999999999984
+  ]
+}

@@ -1,0 +1,27 @@
+import { readFile,writeFile } from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import { moveCapsule } from '../lib/collision.mjs';
+const previous=JSON.parse(await readFile('public/assets/winterfell-town/layout.json','utf8'));
+const current=JSON.parse(await readFile('public/assets/winterfell-detailed/layout.json','utf8'));
+for(const field of ['footprintMetres','terrainMetres','buildings','courtyards','zones','gates','routes'])assert.deepEqual(current[field],previous[field],`Layout changed: ${field}`);
+const manifest=JSON.parse(await readFile('public/assets/winterfell-detailed/manifest.json','utf8'));
+const d=manifest.details;
+assert.equal(d.buildingsDetailed,31);assert.equal(d.towersDetailed,31);assert.equal(d.gatehouses,3);
+assert.ok(d.windows>700);assert.ok(d.chimneys>=20);assert.ok(d.dormers>=8);
+assert.ok(d.roofVariants.hipped>=3 && d.roofVariants.clerestory>=2);
+assert.equal(d.stairs,2);
+const collision=JSON.parse(await readFile('public/assets/winterfell-detailed/collision.json','utf8'));
+function march(p,dx,dz,count){for(let i=0;i<count;i++)p=moveCapsule(p,[dx,dz],collision);return p;}
+let inner=march([-60,1.92,-36.6],0,-.05,580);
+assert.ok(inner[1]>14.5,`Inner stair ascent failed: ${inner}`);
+inner=march(inner,-.05,0,75);
+assert.ok(inner[0]<-63.5 && inner[1]>14.5,`Inner wall landing blocked: ${inner}`);
+inner=march(inner,0,-.05,120);
+assert.ok(inner[2]<-71 && inner[1]>14.5,`Inner wall walk failed: ${inner}`);
+let outer=march([-44.3,1.92,-91],.05,0,446);
+assert.ok(outer[1]>11.7,`Outer stair ascent failed: ${outer}`);
+outer=march(outer,0,-.05,55);
+assert.ok(outer[2]<-93.5 && outer[1]>11.7,`Outer wall landing failed: ${outer}`);
+const report={passed:true,layoutPreserved:true,detailCounts:d,innerWallAccess:inner,outerWallAccess:outer};
+await writeFile('artifacts/detail-pass-03/architecture-validation.json',JSON.stringify(report,null,2));
+console.log(JSON.stringify(report,null,2));

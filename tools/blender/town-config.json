@@ -1,0 +1,8 @@
+{
+  "terrain_size": 480,
+  "wall_height": 10,
+  "preview_resolution": [1600, 1200],
+  "preview_samples": 24,
+  "triangle_budget": 260000,
+  "glb_size_budget_mb": 36
+}

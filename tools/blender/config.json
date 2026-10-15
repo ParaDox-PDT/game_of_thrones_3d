@@ -1,0 +1,10 @@
+{
+  "seed": 827,
+  "texture_size": 256,
+  "terrain_size": 230,
+  "wall_height": 8,
+  "preview_resolution": [1280, 900],
+  "preview_samples": 24,
+  "triangle_budget": 180000,
+  "glb_size_budget_mb": 18
+}

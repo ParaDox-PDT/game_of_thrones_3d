@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "fortressLayoutPreserved": true,
+  "terrainMetres": [
+    1280,
+    1280
+  ],
+  "counts": {
+    "pines": 412,
+    "mountainRanges": 4,
+    "rocks": 226,
+    "snowDrifts": 556,
+    "barrels": 24,
+    "crates": 20,
+    "carts": 5,
+    "woodPiles": 9,
+    "fenceSegments": 5,
+    "torches": 12,
+    "braziers": 6,
+    "banners": 8,
+    "marketStalls": 4,
+    "footprints": 377,
+    "wheelRuts": 10,
+    "clutterClusters": 35
+  },
+  "embeddedTorchLights": 18,
+  "heightfieldSamples": 25921,
+  "wallStairsClear": true,
+  "previewCount": 7
+}

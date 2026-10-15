@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "createdAt": "2026-10-15T05:09:34.759Z",
+  "initial": {
+    "fps": 58,
+    "calls": 22,
+    "triangles": 117696,
+    "position": [
+      0,
+      1.92,
+      48
+    ],
+    "locked": false,
+    "mode": "orbit",
+    "loaded": true,
+    "renderer": "WebKit WebGL",
+    "heap": 26798064
+  },
+  "courtyard": {
+    "fps": 60,
+    "calls": 21,
+    "triangles": 117690,
+    "position": [
+      0,
+      1.92,
+      22.375200000002906
+    ],
+    "locked": true,
+    "mode": "walk",
+    "loaded": true
+  },
+  "keepStop": {
+    "fps": 60,
+    "calls": 21,
+    "triangles": 117690,
+    "position": [
+      0,
+      1.92,
+      -5.627399999996255
+    ],
+    "locked": true,
+    "mode": "walk",
+    "loaded": true
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "width": 390,
+    "canvasWidth": 390
+  },
+  "errors": [],
+  "failures": [],
+  "notes": "Headless Chrome on this workstation; FPS is measured locally and is not a hardware guarantee."
+}

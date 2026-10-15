@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "modelFile": "winterfell_fortress.glb",
+  "scene": {
+    "loaded": true,
+    "meshes": 24,
+    "materials": 24,
+    "missingMaterials": 0,
+    "pointLights": 18,
+    "bounds": [
+      1490,
+      277.2077875137329,
+      1305
+    ],
+    "drawCalls": 48,
+    "renderedTriangles": 1638980
+  },
+  "errors": []
+}

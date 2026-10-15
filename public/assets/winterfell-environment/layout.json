@@ -1,0 +1,729 @@
+{
+  "pass": "04-environmental-storytelling",
+  "name": "Northern Fortress-Town \u00b7 Winter Atmosphere Pass 04",
+  "footprintMetres": [
+    208,
+    188
+  ],
+  "prototypeFootprintMetres": [
+    76,
+    64
+  ],
+  "footprintAreaMultiplier": 8.04,
+  "terrainMetres": [
+    1280,
+    1280
+  ],
+  "defensiveRings": 3,
+  "maximumKeepHeightMetres": 43.4,
+  "buildingCount": 32,
+  "buildings": [
+    {
+      "name": "MerchantHouse0",
+      "centerBlender": [
+        -35,
+        -83
+      ],
+      "size": [
+        14,
+        13
+      ],
+      "height": 6.5,
+      "type": "timber"
+    },
+    {
+      "name": "MerchantHouse1",
+      "centerBlender": [
+        -35,
+        -68
+      ],
+      "size": [
+        14,
+        13
+      ],
+      "height": 6.5,
+      "type": "timber"
+    },
+    {
+      "name": "MerchantHouse2",
+      "centerBlender": [
+        -35,
+        -37
+      ],
+      "size": [
+        14,
+        13
+      ],
+      "height": 6.5,
+      "type": "timber"
+    },
+    {
+      "name": "CraftWorkshop0",
+      "centerBlender": [
+        33,
+        -83
+      ],
+      "size": [
+        14,
+        13
+      ],
+      "height": 6.5,
+      "type": "timber"
+    },
+    {
+      "name": "CraftWorkshop1",
+      "centerBlender": [
+        33,
+        -68
+      ],
+      "size": [
+        14,
+        13
+      ],
+      "height": 6.5,
+      "type": "timber"
+    },
+    {
+      "name": "CraftWorkshop2",
+      "centerBlender": [
+        33,
+        -37
+      ],
+      "size": [
+        14,
+        13
+      ],
+      "height": 6.5,
+      "type": "timber"
+    },
+    {
+      "name": "SouthwestInn",
+      "centerBlender": [
+        -57,
+        -76
+      ],
+      "size": [
+        20,
+        19
+      ],
+      "height": 8,
+      "type": "stone"
+    },
+    {
+      "name": "CartersLodge",
+      "centerBlender": [
+        57,
+        -77
+      ],
+      "size": [
+        18,
+        18
+      ],
+      "height": 6,
+      "type": "timber"
+    },
+    {
+      "name": "WestBakehouse",
+      "centerBlender": [
+        -55,
+        -38
+      ],
+      "size": [
+        15,
+        15
+      ],
+      "height": 6,
+      "type": "timber"
+    },
+    {
+      "name": "EastWorkshop",
+      "centerBlender": [
+        55,
+        -37
+      ],
+      "size": [
+        15,
+        15
+      ],
+      "height": 6,
+      "type": "timber"
+    },
+    {
+      "name": "SouthBarracks",
+      "centerBlender": [
+        -84,
+        -35
+      ],
+      "size": [
+        22,
+        20
+      ],
+      "height": 7.5,
+      "type": "stone"
+    },
+    {
+      "name": "NorthBarracks",
+      "centerBlender": [
+        -84,
+        28
+      ],
+      "size": [
+        22,
+        20
+      ],
+      "height": 7.5,
+      "type": "stone"
+    },
+    {
+      "name": "OfficerBarracks",
+      "centerBlender": [
+        -84,
+        55
+      ],
+      "size": [
+        21,
+        17
+      ],
+      "height": 8,
+      "type": "stone"
+    },
+    {
+      "name": "Quartermaster",
+      "centerBlender": [
+        -84,
+        77
+      ],
+      "size": [
+        22,
+        12
+      ],
+      "height": 6.5,
+      "type": "timber"
+    },
+    {
+      "name": "SouthStableRange",
+      "centerBlender": [
+        84,
+        -36
+      ],
+      "size": [
+        22,
+        22
+      ],
+      "height": 5.8,
+      "type": "timber"
+    },
+    {
+      "name": "NorthStableRange",
+      "centerBlender": [
+        84,
+        31
+      ],
+      "size": [
+        22,
+        30
+      ],
+      "height": 6.5,
+      "type": "timber"
+    },
+    {
+      "name": "FodderBarn",
+      "centerBlender": [
+        84,
+        66
+      ],
+      "size": [
+        22,
+        17
+      ],
+      "height": 8,
+      "type": "timber"
+    },
+    {
+      "name": "WestBulkStore",
+      "centerBlender": [
+        -84,
+        -73
+      ],
+      "size": [
+        22,
+        24
+      ],
+      "height": 8,
+      "type": "stone"
+    },
+    {
+      "name": "EastGranary",
+      "centerBlender": [
+        84,
+        -73
+      ],
+      "size": [
+        22,
+        24
+      ],
+      "height": 10,
+      "type": "stone"
+    },
+    {
+      "name": "WestWardHouse0",
+      "centerBlender": [
+        -47,
+        -9
+      ],
+      "size": [
+        15,
+        14
+      ],
+      "height": 7,
+      "type": "timber"
+    },
+    {
+      "name": "WestWardHouse1",
+      "centerBlender": [
+        -47,
+        14
+      ],
+      "size": [
+        15,
+        14
+      ],
+      "height": 7,
+      "type": "timber"
+    },
+    {
+      "name": "WestWardHouse2",
+      "centerBlender": [
+        -47,
+        44
+      ],
+      "size": [
+        15,
+        14
+      ],
+      "height": 8,
+      "type": "timber"
+    },
+    {
+      "name": "WestWardHouse3",
+      "centerBlender": [
+        -47,
+        66
+      ],
+      "size": [
+        15,
+        14
+      ],
+      "height": 8,
+      "type": "stone"
+    },
+    {
+      "name": "EastWardHouse0",
+      "centerBlender": [
+        47,
+        -9
+      ],
+      "size": [
+        15,
+        14
+      ],
+      "height": 7,
+      "type": "timber"
+    },
+    {
+      "name": "EastWardHouse1",
+      "centerBlender": [
+        47,
+        14
+      ],
+      "size": [
+        15,
+        14
+      ],
+      "height": 7,
+      "type": "timber"
+    },
+    {
+      "name": "EastWardHouse2",
+      "centerBlender": [
+        47,
+        44
+      ],
+      "size": [
+        15,
+        14
+      ],
+      "height": 8,
+      "type": "timber"
+    },
+    {
+      "name": "EastWardHouse3",
+      "centerBlender": [
+        47,
+        66
+      ],
+      "size": [
+        15,
+        14
+      ],
+      "height": 8,
+      "type": "stone"
+    },
+    {
+      "name": "WestCouncilRange",
+      "centerBlender": [
+        -24,
+        -10
+      ],
+      "size": [
+        13,
+        12
+      ],
+      "height": 9,
+      "type": "stone"
+    },
+    {
+      "name": "EastCouncilRange",
+      "centerBlender": [
+        24,
+        -10
+      ],
+      "size": [
+        13,
+        12
+      ],
+      "height": 9,
+      "type": "stone"
+    },
+    {
+      "name": "KeepSideHall",
+      "centerBlender": [
+        -24,
+        55
+      ],
+      "size": [
+        10,
+        22
+      ],
+      "height": 15,
+      "type": "stone"
+    },
+    {
+      "name": "KeepSideHall",
+      "centerBlender": [
+        24,
+        55
+      ],
+      "size": [
+        10,
+        22
+      ],
+      "height": 15,
+      "type": "stone"
+    },
+    {
+      "name": "GreatKeepComplex",
+      "centerBlender": [
+        0,
+        55
+      ],
+      "size": [
+        58,
+        40
+      ],
+      "height": 43.4,
+      "type": "stepped keep / four corner towers"
+    }
+  ],
+  "courtyards": [
+    {
+      "name": "ArrivalMarket",
+      "centerBlender": [
+        0,
+        -62
+      ],
+      "size": [
+        42,
+        32
+      ],
+      "function": "market / public arrival"
+    },
+    {
+      "name": "MusterAndTraining",
+      "centerBlender": [
+        -84,
+        -5
+      ],
+      "size": [
+        27,
+        33
+      ],
+      "function": "military / drill"
+    },
+    {
+      "name": "StableExerciseYard",
+      "centerBlender": [
+        84,
+        -5
+      ],
+      "size": [
+        25,
+        34
+      ],
+      "function": "stable / exercise"
+    },
+    {
+      "name": "WestUnloadingYard",
+      "centerBlender": [
+        -83,
+        -52
+      ],
+      "size": [
+        25,
+        10
+      ],
+      "function": "service"
+    },
+    {
+      "name": "EastUnloadingYard",
+      "centerBlender": [
+        83,
+        -52
+      ],
+      "size": [
+        25,
+        10
+      ],
+      "function": "service"
+    },
+    {
+      "name": "GreatAssemblyCourt",
+      "centerBlender": [
+        0,
+        4
+      ],
+      "size": [
+        67,
+        39
+      ],
+      "function": "ceremonial / inner assembly"
+    },
+    {
+      "name": "WestResidentialCourt",
+      "centerBlender": [
+        -46,
+        29
+      ],
+      "size": [
+        22,
+        14
+      ],
+      "function": "residential"
+    },
+    {
+      "name": "EastHouseholdCourt",
+      "centerBlender": [
+        47,
+        29
+      ],
+      "size": [
+        22,
+        14
+      ],
+      "function": "household / domestic"
+    },
+    {
+      "name": "KeepForecourt",
+      "centerBlender": [
+        0,
+        34
+      ],
+      "size": [
+        44,
+        15
+      ],
+      "function": "citadel / keep forecourt"
+    }
+  ],
+  "zones": [
+    {
+      "name": "Military ward",
+      "centerBlender": [
+        -84,
+        15
+      ],
+      "purpose": "Barracks, muster ground and quartermaster; separate from public arrival."
+    },
+    {
+      "name": "Stable ward",
+      "centerBlender": [
+        84,
+        10
+      ],
+      "purpose": "Long stable ranges face a dedicated exercise yard; fodder stored to the north."
+    },
+    {
+      "name": "Storage and receiving",
+      "centerBlender": [
+        0,
+        -76
+      ],
+      "purpose": "Bulk stores sit near the outer gate and cross street, before inner security."
+    },
+    {
+      "name": "Protected inner ward",
+      "centerBlender": [
+        0,
+        4
+      ],
+      "purpose": "Large assembly court with household and residential side courts, entered through an offset gate."
+    },
+    {
+      "name": "Great Keep citadel",
+      "centerBlender": [
+        0,
+        55
+      ],
+      "purpose": "Third defensible enclosure and keep forecourt; 43 m donjon dominates all surrounding roofs."
+    }
+  ],
+  "gates": [
+    {
+      "name": "OuterGatehouse",
+      "centerBlender": [
+        0,
+        -94
+      ],
+      "width": 14,
+      "clearance": 8.5
+    },
+    {
+      "name": "InnerGatehouse",
+      "centerBlender": [
+        -12,
+        -25
+      ],
+      "width": 12,
+      "clearance": 8
+    },
+    {
+      "name": "CitadelGatehouse",
+      "centerBlender": [
+        0,
+        25
+      ],
+      "width": 10,
+      "clearance": 8
+    }
+  ],
+  "routes": [
+    {
+      "name": "Gate-to-keep route",
+      "pointsBlender": [
+        [
+          0,
+          -130
+        ],
+        [
+          0,
+          -63
+        ],
+        [
+          -12,
+          -55
+        ],
+        [
+          -12,
+          4
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          34
+        ]
+      ],
+      "minimumIntendedWidth": 6
+    },
+    {
+      "name": "Military supply access",
+      "pointsBlender": [
+        [
+          0,
+          -62
+        ],
+        [
+          0,
+          -55
+        ],
+        [
+          -71,
+          -55
+        ],
+        [
+          -71,
+          -5
+        ],
+        [
+          -84,
+          -5
+        ]
+      ],
+      "minimumIntendedWidth": 4
+    },
+    {
+      "name": "Stable supply access",
+      "pointsBlender": [
+        [
+          0,
+          -62
+        ],
+        [
+          0,
+          -55
+        ],
+        [
+          71,
+          -55
+        ],
+        [
+          71,
+          -5
+        ],
+        [
+          84,
+          -5
+        ]
+      ],
+      "minimumIntendedWidth": 4
+    }
+  ],
+  "spawn": [
+    0,
+    1.92,
+    125
+  ],
+  "bounds": [
+    -230,
+    230,
+    -230,
+    230
+  ],
+  "overviewCamera": [
+    252,
+    -307,
+    247
+  ],
+  "overviewTarget": [
+    0,
+    0,
+    7
+  ],
+  "reviewScope": "Pass-03 architecture and pass-02 zoning preserved; winter landscape and ward props added.",
+  "previousTerrainMetres": [
+    480,
+    480
+  ]
+}

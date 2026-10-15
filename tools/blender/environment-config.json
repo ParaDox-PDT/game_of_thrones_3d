@@ -1,0 +1,10 @@
+{
+  "seed": 404,
+  "source": "artifacts/detail-pass-03/winterfell_fortress_detailed.blend",
+  "terrain_size": 1280,
+  "terrain_step": 8,
+  "triangle_budget": 1100000,
+  "glb_size_budget_mb": 125,
+  "preview_resolution": [1600, 1200],
+  "fog_density": 0.0018
+}

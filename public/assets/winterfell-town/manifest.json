@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "name": "Northern Fortress-Town \u00b7 Layout Pass 02",
+  "generator": "tools/blender/generate.py",
+  "blenderVersion": "5.2.2 LTS",
+  "seed": 827,
+  "units": "metres",
+  "upAxis": "Y",
+  "source": "artifacts/layout-pass-02/winterfell_fortress.blend",
+  "scene": "winterfell_fortress.glb",
+  "lods": [
+    {
+      "level": 0,
+      "url": "winterfell_fortress.glb",
+      "triangles": 185292
+    },
+    {
+      "level": 1,
+      "url": "winterfell_fortress_lod1.glb",
+      "decimationRatio": 0.45
+    }
+  ],
+  "modules": {},
+  "collision": "collision.json",
+  "materials": [
+    "AgedStone",
+    "CutStone",
+    "WeatheredWood",
+    "DarkIron",
+    "Snow",
+    "FrozenGround",
+    "SlateRoof",
+    "Gravel",
+    "StarkBanner",
+    "WindowRecess",
+    "Ember"
+  ],
+  "textureResolution": 256,
+  "visualObjects": 4682,
+  "uniqueSourceMeshes": 652,
+  "renderMeshes": 9,
+  "collisionProxies": 326,
+  "sourceLicense": "Original procedural architecture. No extracted game assets.",
+  "preview": "/assets/winterfell-town/overview.png",
+  "generationSeconds": 124.54,
+  "layout": "layout.json"
+}

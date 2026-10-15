@@ -1,0 +1,2694 @@
+{
+  "schemaVersion": 1,
+  "units": "metres",
+  "coordinateSystem": "right-handed Y-up; Blender (x,y,z) -> glTF (x,z,-y)",
+  "capsule": {
+    "radius": 0.36,
+    "height": 1.8,
+    "stepHeight": 0.3
+  },
+  "spawn": [
+    0,
+    1.8,
+    48
+  ],
+  "gateClearance": {
+    "width": 7.0,
+    "height": 6.5
+  },
+  "colliders": [
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        29.09090909090909
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        23.272727272727273
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        17.454545454545453
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        11.636363636363637
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        5.818181818181817
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        -0.0
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        -5.81818181818182
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        -11.63636363636364
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        -17.454545454545453
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        -23.272727272727273
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "WestCurtain_Module",
+      "type": "box",
+      "center": [
+        -38,
+        4.0,
+        -29.090909090909093
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        29.09090909090909
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        23.272727272727273
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        17.454545454545453
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        11.636363636363637
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        5.818181818181817
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        -0.0
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        -5.81818181818182
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        -11.63636363636364
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        -17.454545454545453
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        -23.272727272727273
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "EastCurtain_Module",
+      "type": "box",
+      "center": [
+        38,
+        4.0,
+        -29.090909090909093
+      ],
+      "size": [
+        2.3,
+        8,
+        5.818181818181818
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        -35.07692307692308,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        -29.230769230769234,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        -23.384615384615387,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        -17.53846153846154,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        -11.692307692307693,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        -5.846153846153847,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        0.0,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        5.846153846153847,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        11.692307692307686,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        17.538461538461533,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        23.38461538461538,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        29.230769230769226,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "NorthCurtain_Module",
+      "type": "box",
+      "center": [
+        35.076923076923066,
+        4.0,
+        -32
+      ],
+      "size": [
+        5.846153846153846,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthWestCurtain_Module",
+      "type": "box",
+      "center": [
+        -35.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthWestCurtain_Module",
+      "type": "box",
+      "center": [
+        -29.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthWestCurtain_Module",
+      "type": "box",
+      "center": [
+        -23.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthWestCurtain_Module",
+      "type": "box",
+      "center": [
+        -17.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthWestCurtain_Module",
+      "type": "box",
+      "center": [
+        -11.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthEastCurtain_Module",
+      "type": "box",
+      "center": [
+        11.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthEastCurtain_Module",
+      "type": "box",
+      "center": [
+        17.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthEastCurtain_Module",
+      "type": "box",
+      "center": [
+        23.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthEastCurtain_Module",
+      "type": "box",
+      "center": [
+        29.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "SouthEastCurtain_Module",
+      "type": "box",
+      "center": [
+        35.0,
+        4.0,
+        32
+      ],
+      "size": [
+        6.0,
+        8,
+        2.3
+      ]
+    },
+    {
+      "name": "CornerTower_Shaft",
+      "type": "cylinder",
+      "center": [
+        -38,
+        6.5,
+        32
+      ],
+      "radius": 4,
+      "height": 13
+    },
+    {
+      "name": "CornerTower_Shaft",
+      "type": "cylinder",
+      "center": [
+        -38,
+        6.5,
+        -32
+      ],
+      "radius": 4,
+      "height": 13
+    },
+    {
+      "name": "CornerTower_Shaft",
+      "type": "cylinder",
+      "center": [
+        38,
+        6.5,
+        32
+      ],
+      "radius": 4,
+      "height": 13
+    },
+    {
+      "name": "CornerTower_Shaft",
+      "type": "cylinder",
+      "center": [
+        38,
+        6.5,
+        -32
+      ],
+      "radius": 4,
+      "height": 13
+    },
+    {
+      "name": "WestWatch_Shaft",
+      "type": "cylinder",
+      "center": [
+        -38,
+        8.0,
+        -5
+      ],
+      "radius": 3.7,
+      "height": 16
+    },
+    {
+      "name": "EastWatch_Shaft",
+      "type": "cylinder",
+      "center": [
+        38,
+        8.0,
+        -5
+      ],
+      "radius": 3.7,
+      "height": 16
+    },
+    {
+      "name": "GateWest_Shaft",
+      "type": "cylinder",
+      "center": [
+        -7.6,
+        6.0,
+        32
+      ],
+      "radius": 3.5,
+      "height": 12
+    },
+    {
+      "name": "GateEast_Shaft",
+      "type": "cylinder",
+      "center": [
+        7.6,
+        6.0,
+        32
+      ],
+      "radius": 3.5,
+      "height": 12
+    },
+    {
+      "name": "GatehouseBridge",
+      "type": "box",
+      "center": [
+        0,
+        9,
+        32
+      ],
+      "size": [
+        8,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "OpenOakGate",
+      "type": "box",
+      "center": [
+        -3.85,
+        2.55,
+        30.0
+      ],
+      "size": [
+        0.3,
+        5.1,
+        4.2
+      ]
+    },
+    {
+      "name": "OpenOakGate",
+      "type": "box",
+      "center": [
+        3.85,
+        2.55,
+        30.0
+      ],
+      "size": [
+        0.3,
+        5.1,
+        4.2
+      ]
+    },
+    {
+      "name": "GreatHall",
+      "type": "box",
+      "center": [
+        0,
+        6.5,
+        -16
+      ],
+      "size": [
+        18,
+        13,
+        20
+      ]
+    },
+    {
+      "name": "Keep",
+      "type": "box",
+      "center": [
+        0,
+        11,
+        -26
+      ],
+      "size": [
+        13,
+        22,
+        9
+      ]
+    },
+    {
+      "name": "HallWestTower_Shaft",
+      "type": "cylinder",
+      "center": [
+        -11,
+        9.5,
+        -21
+      ],
+      "radius": 3,
+      "height": 19
+    },
+    {
+      "name": "HallEastTower_Shaft",
+      "type": "cylinder",
+      "center": [
+        11,
+        9.5,
+        -21
+      ],
+      "radius": 3,
+      "height": 19
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        0.85,
+        23.0
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        1.1,
+        22.3
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        1.35,
+        21.6
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        1.6,
+        20.9
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        1.85,
+        20.2
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        2.1,
+        19.5
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        2.35,
+        18.8
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        2.6,
+        18.1
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        2.85,
+        17.4
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        3.1,
+        16.7
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        3.35,
+        16.0
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        3.6,
+        15.3
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        3.85,
+        14.600000000000001
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        4.1,
+        13.9
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        4.35,
+        13.200000000000001
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        4.6,
+        12.5
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        4.85,
+        11.8
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        5.1,
+        11.100000000000001
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        5.35,
+        10.4
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        5.6,
+        9.700000000000001
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        5.85,
+        9.0
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        6.1,
+        8.3
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        6.35,
+        7.600000000000001
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        6.6,
+        6.900000000000002
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        6.85,
+        6.200000000000003
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        7.1,
+        5.5
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        7.35,
+        4.800000000000001
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        7.6,
+        4.100000000000001
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        7.85,
+        3.400000000000002
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        8.1,
+        2.700000000000003
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        8.35,
+        2.0
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "StairParapet",
+      "type": "box",
+      "center": [
+        35.8,
+        8.6,
+        1.3000000000000007
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.73
+      ]
+    },
+    {
+      "name": "Smithy_Frame",
+      "type": "box",
+      "center": [
+        -24,
+        2.65,
+        -7
+      ],
+      "size": [
+        11,
+        4.5,
+        12
+      ]
+    },
+    {
+      "name": "Stable_Frame",
+      "type": "box",
+      "center": [
+        24,
+        2.4,
+        -12
+      ],
+      "size": [
+        11,
+        4,
+        17
+      ]
+    },
+    {
+      "name": "Barracks_Frame",
+      "type": "box",
+      "center": [
+        -24,
+        2.9,
+        15
+      ],
+      "size": [
+        12,
+        5,
+        13
+      ]
+    },
+    {
+      "name": "Storehouse_Frame",
+      "type": "box",
+      "center": [
+        23,
+        2.4,
+        17
+      ],
+      "size": [
+        10,
+        4,
+        10
+      ]
+    },
+    {
+      "name": "Fence",
+      "type": "box",
+      "center": [
+        -25.5,
+        0.85,
+        25
+      ],
+      "size": [
+        13,
+        1.7,
+        0.25
+      ]
+    },
+    {
+      "name": "Fence",
+      "type": "box",
+      "center": [
+        24.5,
+        0.85,
+        25
+      ],
+      "size": [
+        13,
+        1.7,
+        0.25
+      ]
+    },
+    {
+      "name": "Fence",
+      "type": "box",
+      "center": [
+        -25.5,
+        0.85,
+        17
+      ],
+      "size": [
+        13,
+        1.7,
+        0.25
+      ]
+    },
+    {
+      "name": "Fence",
+      "type": "box",
+      "center": [
+        24.5,
+        0.85,
+        17
+      ],
+      "size": [
+        13,
+        1.7,
+        0.25
+      ]
+    },
+    {
+      "name": "WellStone",
+      "type": "cylinder",
+      "center": [
+        13,
+        0.8,
+        3
+      ],
+      "radius": 1.6,
+      "height": 1.6
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        27.30915697187306,
+        0.6,
+        0.7469867780222756
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        -28.43609746056584,
+        0.7,
+        5.857105926531009
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        18.846351802322058,
+        0.6,
+        5.751405128519732
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        17.247414132489904,
+        0.7,
+        4.579154464027423
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        24.81824252561203,
+        0.6,
+        2.8301536946808046
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        -18.100613739099234,
+        0.7,
+        6.109060461051675
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        -20.19584111767695,
+        0.6,
+        0.5953361306986515
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        19.184554653017507,
+        0.7,
+        8.326406631891599
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        21.716025725704842,
+        0.6,
+        1.4780557858771886
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        -28.93725613439324,
+        0.7,
+        1.7684746914973175
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        -21.21634674208662,
+        0.6,
+        3.8469910728364853
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        24.888253728316684,
+        0.7,
+        7.352403660133319
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        20.108127661092606,
+        0.6,
+        1.67858065510599
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        -26.469153497120708,
+        0.7,
+        8.701693297859316
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        18.448532900975408,
+        0.6,
+        6.486881243020922
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        -29.992875069005702,
+        0.7,
+        5.4509003497835575
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        -26.3789349544695,
+        0.6,
+        4.966017506983819
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        26.581182744520895,
+        0.7,
+        1.2867535382449962
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        28.64076441520197,
+        0.6,
+        0.2615947661364668
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        -23.61525799456731,
+        0.7,
+        4.870670030055232
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "Crate",
+      "type": "box",
+      "center": [
+        -21.665608902086767,
+        0.6,
+        7.177004113339932
+      ],
+      "size": [
+        1.15,
+        1.2,
+        1.1
+      ]
+    },
+    {
+      "name": "Barrel",
+      "type": "cylinder",
+      "center": [
+        29.699939919150466,
+        0.7,
+        2.337577308438931
+      ],
+      "radius": 0.48,
+      "height": 1.4
+    },
+    {
+      "name": "BrazierFoot",
+      "type": "cylinder",
+      "center": [
+        -10,
+        0.3,
+        26
+      ],
+      "radius": 0.5,
+      "height": 0.6
+    },
+    {
+      "name": "BrazierFoot",
+      "type": "cylinder",
+      "center": [
+        10,
+        0.3,
+        26
+      ],
+      "radius": 0.5,
+      "height": 0.6
+    },
+    {
+      "name": "BrazierFoot",
+      "type": "cylinder",
+      "center": [
+        -5,
+        0.3,
+        -3
+      ],
+      "radius": 0.5,
+      "height": 0.6
+    },
+    {
+      "name": "BrazierFoot",
+      "type": "cylinder",
+      "center": [
+        5,
+        0.3,
+        -3
+      ],
+      "radius": 0.5,
+      "height": 0.6
+    },
+    {
+      "name": "CartBed",
+      "type": "box",
+      "center": [
+        -15,
+        1.0,
+        11
+      ],
+      "size": [
+        2.1,
+        0.25,
+        3.5
+      ]
+    },
+    {
+      "name": "CartBed",
+      "type": "box",
+      "center": [
+        15,
+        1.0,
+        11
+      ],
+      "size": [
+        2.1,
+        0.25,
+        3.5
+      ]
+    }
+  ],
+  "walkableSurfaces": [
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        26.18181818181818
+      ],
+      "max": [
+        -36.85,
+        32.0
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        20.363636363636363
+      ],
+      "max": [
+        -36.85,
+        26.181818181818183
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        14.545454545454543
+      ],
+      "max": [
+        -36.85,
+        20.363636363636363
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        8.727272727272727
+      ],
+      "max": [
+        -36.85,
+        14.545454545454547
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        2.9090909090909074
+      ],
+      "max": [
+        -36.85,
+        8.727272727272727
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        -2.909090909090909
+      ],
+      "max": [
+        -36.85,
+        2.909090909090909
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        -8.72727272727273
+      ],
+      "max": [
+        -36.85,
+        -2.909090909090911
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        -14.54545454545455
+      ],
+      "max": [
+        -36.85,
+        -8.72727272727273
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        -20.363636363636363
+      ],
+      "max": [
+        -36.85,
+        -14.545454545454543
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        -26.181818181818183
+      ],
+      "max": [
+        -36.85,
+        -20.363636363636363
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -39.15,
+        -32.0
+      ],
+      "max": [
+        -36.85,
+        -26.181818181818183
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        26.18181818181818
+      ],
+      "max": [
+        39.15,
+        32.0
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        20.363636363636363
+      ],
+      "max": [
+        39.15,
+        26.181818181818183
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        14.545454545454543
+      ],
+      "max": [
+        39.15,
+        20.363636363636363
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        8.727272727272727
+      ],
+      "max": [
+        39.15,
+        14.545454545454547
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        2.9090909090909074
+      ],
+      "max": [
+        39.15,
+        8.727272727272727
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        -2.909090909090909
+      ],
+      "max": [
+        39.15,
+        2.909090909090909
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        -8.72727272727273
+      ],
+      "max": [
+        39.15,
+        -2.909090909090911
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        -14.54545454545455
+      ],
+      "max": [
+        39.15,
+        -8.72727272727273
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        -20.363636363636363
+      ],
+      "max": [
+        39.15,
+        -14.545454545454543
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        -26.181818181818183
+      ],
+      "max": [
+        39.15,
+        -20.363636363636363
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        36.85,
+        -32.0
+      ],
+      "max": [
+        39.15,
+        -26.181818181818183
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -38.0,
+        -33.15
+      ],
+      "max": [
+        -32.15384615384616,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -32.15384615384615,
+        -33.15
+      ],
+      "max": [
+        -26.30769230769231,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -26.30769230769231,
+        -33.15
+      ],
+      "max": [
+        -20.461538461538463,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -20.461538461538463,
+        -33.15
+      ],
+      "max": [
+        -14.615384615384617,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -14.615384615384617,
+        -33.15
+      ],
+      "max": [
+        -8.76923076923077,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -8.76923076923077,
+        -33.15
+      ],
+      "max": [
+        -2.923076923076924,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -2.923076923076923,
+        -33.15
+      ],
+      "max": [
+        2.923076923076923,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        2.923076923076924,
+        -33.15
+      ],
+      "max": [
+        8.76923076923077,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        8.769230769230763,
+        -33.15
+      ],
+      "max": [
+        14.61538461538461,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        14.61538461538461,
+        -33.15
+      ],
+      "max": [
+        20.461538461538456,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        20.461538461538456,
+        -33.15
+      ],
+      "max": [
+        26.307692307692303,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        26.307692307692303,
+        -33.15
+      ],
+      "max": [
+        32.153846153846146,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        32.153846153846146,
+        -33.15
+      ],
+      "max": [
+        37.999999999999986,
+        -30.85
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -38.0,
+        30.85
+      ],
+      "max": [
+        -32.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -32.0,
+        30.85
+      ],
+      "max": [
+        -26.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -26.0,
+        30.85
+      ],
+      "max": [
+        -20.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -20.0,
+        30.85
+      ],
+      "max": [
+        -14.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        -14.0,
+        30.85
+      ],
+      "max": [
+        -8.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        8.0,
+        30.85
+      ],
+      "max": [
+        14.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        14.0,
+        30.85
+      ],
+      "max": [
+        20.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        20.0,
+        30.85
+      ],
+      "max": [
+        26.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        26.0,
+        30.85
+      ],
+      "max": [
+        32.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallWalk",
+      "min": [
+        32.0,
+        30.85
+      ],
+      "max": [
+        38.0,
+        33.15
+      ],
+      "height": 8.08
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        22.635
+      ],
+      "max": [
+        35.5,
+        23.365
+      ],
+      "height": 0.25
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        21.935000000000002
+      ],
+      "max": [
+        35.5,
+        22.665
+      ],
+      "height": 0.5
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        21.235000000000003
+      ],
+      "max": [
+        35.5,
+        21.965
+      ],
+      "height": 0.75
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        20.535
+      ],
+      "max": [
+        35.5,
+        21.264999999999997
+      ],
+      "height": 1.0
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        19.835
+      ],
+      "max": [
+        35.5,
+        20.564999999999998
+      ],
+      "height": 1.25
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        19.135
+      ],
+      "max": [
+        35.5,
+        19.865
+      ],
+      "height": 1.5
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        18.435000000000002
+      ],
+      "max": [
+        35.5,
+        19.165
+      ],
+      "height": 1.75
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        17.735000000000003
+      ],
+      "max": [
+        35.5,
+        18.465
+      ],
+      "height": 2.0
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        17.035
+      ],
+      "max": [
+        35.5,
+        17.764999999999997
+      ],
+      "height": 2.25
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        16.335
+      ],
+      "max": [
+        35.5,
+        17.064999999999998
+      ],
+      "height": 2.5
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        15.635
+      ],
+      "max": [
+        35.5,
+        16.365
+      ],
+      "height": 2.75
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        14.935
+      ],
+      "max": [
+        35.5,
+        15.665000000000001
+      ],
+      "height": 3.0
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        14.235000000000001
+      ],
+      "max": [
+        35.5,
+        14.965000000000002
+      ],
+      "height": 3.25
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        13.535
+      ],
+      "max": [
+        35.5,
+        14.265
+      ],
+      "height": 3.5
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        12.835
+      ],
+      "max": [
+        35.5,
+        13.565000000000001
+      ],
+      "height": 3.75
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        12.135
+      ],
+      "max": [
+        35.5,
+        12.865
+      ],
+      "height": 4.0
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        11.435
+      ],
+      "max": [
+        35.5,
+        12.165000000000001
+      ],
+      "height": 4.25
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        10.735000000000001
+      ],
+      "max": [
+        35.5,
+        11.465000000000002
+      ],
+      "height": 4.5
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        10.035
+      ],
+      "max": [
+        35.5,
+        10.765
+      ],
+      "height": 4.75
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        9.335
+      ],
+      "max": [
+        35.5,
+        10.065000000000001
+      ],
+      "height": 5.0
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        8.635
+      ],
+      "max": [
+        35.5,
+        9.365
+      ],
+      "height": 5.25
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        7.9350000000000005
+      ],
+      "max": [
+        35.5,
+        8.665000000000001
+      ],
+      "height": 5.5
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        7.235000000000001
+      ],
+      "max": [
+        35.5,
+        7.965000000000002
+      ],
+      "height": 5.75
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        6.535000000000002
+      ],
+      "max": [
+        35.5,
+        7.265000000000002
+      ],
+      "height": 6.0
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        5.835000000000003
+      ],
+      "max": [
+        35.5,
+        6.565000000000003
+      ],
+      "height": 6.25
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        5.135
+      ],
+      "max": [
+        35.5,
+        5.865
+      ],
+      "height": 6.5
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        4.4350000000000005
+      ],
+      "max": [
+        35.5,
+        5.165000000000001
+      ],
+      "height": 6.75
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        3.735000000000001
+      ],
+      "max": [
+        35.5,
+        4.465000000000002
+      ],
+      "height": 7.0
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        3.035000000000002
+      ],
+      "max": [
+        35.5,
+        3.7650000000000023
+      ],
+      "height": 7.25
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        2.3350000000000026
+      ],
+      "max": [
+        35.5,
+        3.065000000000003
+      ],
+      "height": 7.5
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        1.635
+      ],
+      "max": [
+        35.5,
+        2.365
+      ],
+      "height": 7.75
+    },
+    {
+      "name": "WallStair",
+      "min": [
+        32.5,
+        0.9350000000000007
+      ],
+      "max": [
+        35.5,
+        1.6650000000000007
+      ],
+      "height": 8.0
+    },
+    {
+      "name": "StairLanding",
+      "min": [
+        33,
+        -0.25
+      ],
+      "max": [
+        39,
+        0.95
+      ],
+      "height": 8.08
+    }
+  ],
+  "floor": 0.12,
+  "bounds": [
+    -108,
+    108,
+    -108,
+    108
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "layoutPreserved": true,
+  "triangles": 606858,
+  "details": {
+    "buildingsDetailed": 31,
+    "wallModulesDetailed": 250,
+    "towersDetailed": 31,
+    "windows": 1388,
+    "doors": 32,
+    "chimneys": 27,
+    "dormers": 14,
+    "gatehouses": 3,
+    "stairs": 2,
+    "roofVariants": {
+      "gable": 28,
+      "hipped": 3,
+      "clerestory": 2
+    }
+  },
+  "generationSeconds": 60.01
+}

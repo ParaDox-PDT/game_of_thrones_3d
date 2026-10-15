@@ -1,0 +1,7 @@
+{
+  "seed": 303,
+  "triangle_budget": 650000,
+  "glb_size_budget_mb": 85,
+  "preview_resolution": [1600, 1200],
+  "source": "artifacts/layout-pass-02/winterfell_fortress.blend"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "scene": {
+    "loaded": true,
+    "meshes": 9,
+    "materials": 9,
+    "missingMaterials": 0,
+    "bounds": [
+      480,
+      85.98297119140625,
+      480
+    ],
+    "drawCalls": 18,
+    "renderedTriangles": 370584
+  },
+  "errors": []
+}

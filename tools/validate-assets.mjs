@@ -1,0 +1,34 @@
+import { readFile, writeFile, stat, mkdir } from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import validator from 'gltf-validator';
+const dir = path.resolve(process.argv[2] || 'public/assets/winterfell');
+const reportDirectory = path.resolve(process.argv[3] || 'artifacts');
+const manifest = JSON.parse(await readFile(path.join(dir,'manifest.json'),'utf8'));
+const files = [...manifest.lods.map(l=>l.url), ...Object.values(manifest.modules)];
+const results = [];
+for (const file of files) {
+  const bytes = await readFile(path.join(dir,file));
+  assert.equal(bytes.toString('ascii',0,4),'glTF');
+  assert.equal(bytes.readUInt32LE(4),2);
+  assert.equal(bytes.readUInt32LE(8),bytes.length);
+  const report = await validator.validateBytes(new Uint8Array(bytes), { uri: file, maxIssues: 100 });
+  const jsonLength=bytes.readUInt32LE(12);
+  const gltf=JSON.parse(bytes.toString('utf8',20,20+jsonLength));
+  assert.equal(report.issues.numErrors,0,`${file}: ${JSON.stringify(report.issues.messages)}`);
+  assert.ok(gltf.meshes.length>0);
+  assert.ok(gltf.materials.every(m=>m.pbrMetallicRoughness));
+  assert.ok(gltf.meshes.every(m=>m.primitives.every(p=>p.attributes.POSITION!==undefined && p.attributes.NORMAL!==undefined && p.attributes.TEXCOORD_0!==undefined)));
+  const triangles=gltf.meshes.reduce((sum,m)=>sum+m.primitives.reduce((n,p)=>n+gltf.accessors[p.indices].count/3,0),0);
+  results.push({file,bytes:bytes.length,meshes:gltf.meshes.length,materials:gltf.materials.length,triangles,errors:report.issues.numErrors,warnings:report.issues.numWarnings,messages:report.issues.messages});
+}
+assert.ok(results[1].triangles < results[0].triangles,'LOD1 must reduce actual triangles');
+const blend=await stat(path.resolve(manifest.source));
+assert.ok(blend.size>100000);
+const collision=JSON.parse(await readFile(path.join(dir,'collision.json'),'utf8'));
+assert.equal(collision.colliders.length,manifest.collisionProxies);
+assert.ok(collision.colliders.every(c=>c.center.every(Number.isFinite)));
+const report={passed:true,createdAt:new Date().toISOString(),blenderVersion:manifest.blenderVersion,blendBytes:blend.size,collisionProxies:collision.colliders.length,files:results};
+await mkdir(reportDirectory,{recursive:true});
+await writeFile(path.join(reportDirectory,'export-validation.json'),JSON.stringify(report,null,2));
+console.log(JSON.stringify(report,null,2));

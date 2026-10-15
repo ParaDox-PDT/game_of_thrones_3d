@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "blenderVersion": "5.2.2 LTS",
+  "images": 20,
+  "pixelCounts": {
+    "AgedStone_base.png": 262144,
+    "AgedStone_normal.png": 262144,
+    "CutStone_base.png": 262144,
+    "CutStone_normal.png": 262144,
+    "FrozenGround_base.png": 262144,
+    "FrozenGround_normal.png": 262144,
+    "Gravel_base.png": 262144,
+    "Gravel_normal.png": 262144,
+    "RoadSlush_Base": 262144,
+    "RoadSlush_Normal": 262144,
+    "SlateRoof_base.png": 262144,
+    "SlateRoof_normal.png": 262144,
+    "Snow_base.png": 262144,
+    "Snow_normal.png": 262144,
+    "WeatheredWood_base.png": 262144,
+    "WeatheredWood_normal.png": 262144,
+    "WheelEarth_Base": 262144,
+    "WheelEarth_Normal": 262144,
+    "WinterMud_Base": 262144,
+    "WinterMud_Normal": 262144
+  },
+  "missingImageData": [],
+  "unpackedFileImages": [],
+  "pointLights": 18,
+  "environmentPass": 4,
+  "camera": "WinterValleyOverview"
+}

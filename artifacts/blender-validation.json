@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "blenderVersion": "5.2.2 LTS",
+  "triangles": 58848,
+  "materialCount": 11,
+  "allMeshesHaveUVs": true,
+  "allMeshesHaveMaterials": true,
+  "glbBytes": 8063460,
+  "collisionCount": 129,
+  "gateClearanceMetres": [
+    7,
+    6.5
+  ],
+  "generationSeconds": 35.99
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "name": "Northern Fortress-Town \u00b7 Architectural Detail Pass 03",
+  "generator": "tools/blender/detail_town.py",
+  "blenderVersion": "5.2.2 LTS",
+  "seed": 303,
+  "units": "metres",
+  "upAxis": "Y",
+  "source": "artifacts/detail-pass-03/winterfell_fortress_detailed.blend",
+  "scene": "winterfell_fortress.glb",
+  "lods": [
+    {
+      "level": 0,
+      "url": "winterfell_fortress.glb",
+      "triangles": 606858
+    },
+    {
+      "level": 1,
+      "url": "winterfell_fortress_lod1.glb",
+      "decimationRatio": 0.42
+    }
+  ],
+  "modules": {},
+  "collision": "collision.json",
+  "layout": "layout.json",
+  "materials": [
+    "WF_AgedStone",
+    "WF_CutStone",
+    "WF_DarkIron",
+    "WF_FrozenGround",
+    "WF_Gravel",
+    "WF_LimewashedInfill",
+    "WF_OakShingles",
+    "WF_SlateRoof",
+    "WF_Snow",
+    "WF_WeatheredWood",
+    "WF_WindowRecess"
+  ],
+  "textureResolution": 256,
+  "visualObjects": 35600,
+  "renderMeshes": 11,
+  "collisionProxies": 826,
+  "details": {
+    "buildingsDetailed": 31,
+    "wallModulesDetailed": 250,
+    "towersDetailed": 31,
+    "windows": 1388,
+    "doors": 32,
+    "chimneys": 27,
+    "dormers": 14,
+    "gatehouses": 3,
+    "stairs": 2,
+    "roofVariants": {
+      "gable": 28,
+      "hipped": 3,
+      "clerestory": 2
+    }
+  },
+  "preview": "/assets/winterfell-detailed/overview.png",
+  "sourceLicense": "Original procedural geometry; no game assets."
+}

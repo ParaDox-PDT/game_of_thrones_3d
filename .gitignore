@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.netlify/
+out/
+tools/runtime/
+*.blend1
+*.tsbuildinfo
+__pycache__/
+*.pyc
+artifacts/*.log
+artifacts/**/*.log
+artifacts/**/*.blend1
+.env*
+!.env.example

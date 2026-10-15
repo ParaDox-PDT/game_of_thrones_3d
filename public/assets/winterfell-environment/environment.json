@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "coordinateSystem": "glTF Y-up, metres",
+  "fog": {
+    "type": "exp2",
+    "color": "#9caebb",
+    "density": 0.0018
+  },
+  "background": "#9caebb",
+  "hemisphere": {
+    "sky": "#afc6dc",
+    "ground": "#343c40",
+    "intensity": 1.4
+  },
+  "sun": {
+    "position": [
+      -90,
+      150,
+      80
+    ],
+    "color": "#c1d8f4",
+    "intensity": 1.45
+  },
+  "torchLightsEmbedded": true,
+  "presets": {
+    "overcast": {
+      "sunIntensity": 1.45,
+      "hemisphereIntensity": 1.4
+    },
+    "blueHour": {
+      "sunIntensity": 0.12,
+      "hemisphereIntensity": 0.45,
+      "background": "#263c52"
+    }
+  },
+  "nativeFog": "Blender volume is excluded from GLB; apply these runtime fog settings."
+}

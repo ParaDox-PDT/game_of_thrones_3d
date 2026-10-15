@@ -1,0 +1,167 @@
+{
+  "passed": true,
+  "createdAt": "2026-10-15T05:07:49.331Z",
+  "blenderVersion": "5.2.2 LTS",
+  "blendBytes": 1939486,
+  "collisionProxies": 129,
+  "files": [
+    {
+      "file": "winterfell_fortress.glb",
+      "bytes": 8063460,
+      "meshes": 11,
+      "materials": 11,
+      "triangles": 58848,
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/2/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/3/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/8/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/10/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/10/primitives/0/attributes/TEXCOORD_0"
+        }
+      ]
+    },
+    {
+      "file": "winterfell_fortress_lod1.glb",
+      "bytes": 4241320,
+      "meshes": 11,
+      "materials": 11,
+      "triangles": 26476,
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/2/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/3/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/8/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/10/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/10/primitives/0/attributes/TEXCOORD_0"
+        }
+      ]
+    },
+    {
+      "file": "wall_module.glb",
+      "bytes": 213844,
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 44,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "file": "tower_shaft.glb",
+      "bytes": 216388,
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 92,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "file": "barrel.glb",
+      "bytes": 208052,
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 44,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "file": "crate.glb",
+      "bytes": 209200,
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 44,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    }
+  ]
+}

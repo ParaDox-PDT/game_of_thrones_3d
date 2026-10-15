@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "footprint": [
+    208,
+    188
+  ],
+  "areaMultiplier": 8.04,
+  "buildings": 32,
+  "courtyards": 9,
+  "rings": 3,
+  "checks": [
+    {
+      "route": "Gate-to-keep route",
+      "capsuleRadius": 0.36,
+      "passed": true
+    },
+    {
+      "route": "Gate-to-keep route",
+      "capsuleRadius": 1.5,
+      "passed": true
+    },
+    {
+      "route": "Military supply access",
+      "capsuleRadius": 0.36,
+      "passed": true
+    },
+    {
+      "route": "Military supply access",
+      "capsuleRadius": 1.5,
+      "passed": true
+    },
+    {
+      "route": "Stable supply access",
+      "capsuleRadius": 0.36,
+      "passed": true
+    },
+    {
+      "route": "Stable supply access",
+      "capsuleRadius": 1.5,
+      "passed": true
+    }
+  ]
+}
