@@ -1,0 +1,896 @@
+{
+  "name": "Winterfell - Image A reconstruction",
+  "reference": "Image A.png supplied by the user",
+  "seed": 150526,
+  "outerWall": [
+    [
+      -157,
+      -148
+    ],
+    [
+      -168,
+      -20
+    ],
+    [
+      -155,
+      123
+    ],
+    [
+      -68,
+      158
+    ],
+    [
+      -25,
+      172
+    ],
+    [
+      25,
+      171
+    ],
+    [
+      100,
+      165
+    ],
+    [
+      143,
+      111
+    ],
+    [
+      174,
+      89
+    ],
+    [
+      181,
+      15
+    ],
+    [
+      169,
+      -93
+    ],
+    [
+      180,
+      -149
+    ],
+    [
+      113,
+      -172
+    ],
+    [
+      27,
+      -187
+    ],
+    [
+      -29,
+      -190
+    ],
+    [
+      -101,
+      -173
+    ]
+  ],
+  "keepWall": [
+    [
+      -91,
+      -34
+    ],
+    [
+      -94,
+      52
+    ],
+    [
+      -44,
+      57
+    ],
+    [
+      16,
+      60
+    ],
+    [
+      43,
+      75
+    ],
+    [
+      79,
+      62
+    ],
+    [
+      76,
+      -32
+    ],
+    [
+      47,
+      -57
+    ],
+    [
+      -39,
+      -58
+    ],
+    [
+      -75,
+      -47
+    ]
+  ],
+  "godswoodWall": [
+    [
+      79,
+      62
+    ],
+    [
+      120,
+      51
+    ],
+    [
+      159,
+      25
+    ],
+    [
+      163,
+      -45
+    ],
+    [
+      145,
+      -66
+    ],
+    [
+      76,
+      -43
+    ],
+    [
+      76,
+      -32
+    ]
+  ],
+  "river": [
+    [
+      -222,
+      300
+    ],
+    [
+      -206,
+      225
+    ],
+    [
+      -199,
+      150
+    ],
+    [
+      -210,
+      79
+    ],
+    [
+      -215,
+      4
+    ],
+    [
+      -208,
+      -77
+    ],
+    [
+      -207,
+      -147
+    ],
+    [
+      -179,
+      -192
+    ],
+    [
+      -122,
+      -221
+    ],
+    [
+      -65,
+      -237
+    ],
+    [
+      0,
+      -257
+    ],
+    [
+      83,
+      -283
+    ],
+    [
+      195,
+      -306
+    ],
+    [
+      290,
+      -322
+    ]
+  ],
+  "gates": [
+    {
+      "id": "south-gate",
+      "label": "South Gate",
+      "center": [
+        0,
+        -188
+      ],
+      "width": 12,
+      "height": 18
+    },
+    {
+      "id": "north-gate",
+      "label": "North Gate",
+      "center": [
+        0,
+        172
+      ],
+      "width": 11,
+      "height": 17
+    },
+    {
+      "id": "keep-south-gate",
+      "label": "Keep Gate",
+      "center": [
+        1,
+        -58
+      ],
+      "width": 8,
+      "height": 12
+    },
+    {
+      "id": "keep-north-gate",
+      "label": "Inner North Gate",
+      "center": [
+        -10,
+        59
+      ],
+      "width": 8,
+      "height": 12
+    }
+  ],
+  "districts": [
+    {
+      "id": "keep",
+      "label": "The Great Keep",
+      "center": [
+        -18,
+        4
+      ],
+      "bounds": [
+        -91,
+        -58,
+        77,
+        75
+      ],
+      "description": "Central cluster of heavy drum towers, roofed ranges and an inner fortified yard."
+    },
+    {
+      "id": "stables",
+      "label": "Stables",
+      "center": [
+        -110,
+        105
+      ],
+      "bounds": [
+        -145,
+        65,
+        -67,
+        139
+      ],
+      "description": "Northwestern working stables enclosing an open horse yard."
+    },
+    {
+      "id": "training_yard",
+      "label": "Training Yard",
+      "center": [
+        -17,
+        110
+      ],
+      "bounds": [
+        -53,
+        75,
+        20,
+        144
+      ],
+      "description": "Open upper central drill ground with practice targets and racks."
+    },
+    {
+      "id": "guest_houses",
+      "label": "Guest Houses",
+      "center": [
+        91,
+        111
+      ],
+      "bounds": [
+        37,
+        70,
+        140,
+        149
+      ],
+      "description": "Separate irregular guest houses northeast of the training yard."
+    },
+    {
+      "id": "storehouses",
+      "label": "Storehouses",
+      "center": [
+        -126,
+        8
+      ],
+      "bounds": [
+        -155,
+        -43,
+        -104,
+        58
+      ],
+      "description": "Western service lane and loading yards near the river mill."
+    },
+    {
+      "id": "godswood",
+      "label": "Godswood",
+      "center": [
+        120,
+        0
+      ],
+      "bounds": [
+        79,
+        -45,
+        157,
+        55
+      ],
+      "description": "Quiet eastern enclosure with ancient pale tree, red leaves, rocks and dark pool."
+    },
+    {
+      "id": "kitchens",
+      "label": "Kitchens",
+      "center": [
+        -90,
+        -105
+      ],
+      "bounds": [
+        -137,
+        -141,
+        -50,
+        -69
+      ],
+      "description": "Southwestern ovens, kitchen ranges, firewood and service courts."
+    },
+    {
+      "id": "great_hall",
+      "label": "Great Hall",
+      "center": [
+        -13,
+        -111
+      ],
+      "bounds": [
+        -48,
+        -139,
+        28,
+        -84
+      ],
+      "description": "Large separate hall south of the keep, with steep roofs and entrance steps."
+    },
+    {
+      "id": "family_quarters",
+      "label": "Family Quarters",
+      "center": [
+        91,
+        -114
+      ],
+      "bounds": [
+        49,
+        -150,
+        132,
+        -79
+      ],
+      "description": "Southeastern residential courtyard with connected domestic ranges."
+    },
+    {
+      "id": "maesters_towers",
+      "label": "Maester's Towers",
+      "center": [
+        150,
+        -109
+      ],
+      "bounds": [
+        135,
+        -142,
+        166,
+        -68
+      ],
+      "description": "Narrow eastern tower complex linked by covered galleries."
+    },
+    {
+      "id": "mill",
+      "label": "River Mill",
+      "center": [
+        -181,
+        -25
+      ],
+      "bounds": [
+        -199,
+        -44,
+        -169,
+        -7
+      ],
+      "description": "Mill outside the western wall, waterwheel facing the river."
+    }
+  ],
+  "roads": [
+    {
+      "name": "South approach",
+      "width": 11,
+      "points": [
+        [
+          0,
+          -310
+        ],
+        [
+          0,
+          -267
+        ],
+        [
+          0,
+          -229
+        ],
+        [
+          0,
+          -189
+        ],
+        [
+          0,
+          -163
+        ],
+        [
+          -10,
+          -149
+        ]
+      ]
+    },
+    {
+      "name": "Western ring lane",
+      "width": 8,
+      "points": [
+        [
+          -10,
+          -149
+        ],
+        [
+          -55,
+          -148
+        ],
+        [
+          -98,
+          -143
+        ],
+        [
+          -135,
+          -114
+        ],
+        [
+          -140,
+          -60
+        ],
+        [
+          -123,
+          -45
+        ],
+        [
+          -106,
+          -30
+        ],
+        [
+          -104,
+          30
+        ],
+        [
+          -111,
+          62
+        ],
+        [
+          -62,
+          72
+        ],
+        [
+          -58,
+          114
+        ],
+        [
+          -36,
+          152
+        ],
+        [
+          -18,
+          151
+        ],
+        [
+          0,
+          154
+        ],
+        [
+          0,
+          172
+        ],
+        [
+          0,
+          232
+        ]
+      ]
+    },
+    {
+      "name": "Eastern ring lane",
+      "width": 8,
+      "points": [
+        [
+          -10,
+          -149
+        ],
+        [
+          39,
+          -151
+        ],
+        [
+          72,
+          -156
+        ],
+        [
+          125,
+          -153
+        ],
+        [
+          143,
+          -127
+        ],
+        [
+          135,
+          -70
+        ],
+        [
+          110,
+          -62
+        ],
+        [
+          76,
+          -49
+        ],
+        [
+          55,
+          -68
+        ],
+        [
+          30,
+          -74
+        ],
+        [
+          1,
+          -75
+        ],
+        [
+          1,
+          -58
+        ],
+        [
+          1,
+          -43
+        ]
+      ]
+    },
+    {
+      "name": "Northern cross road",
+      "width": 7,
+      "points": [
+        [
+          -111,
+          62
+        ],
+        [
+          -62,
+          72
+        ],
+        [
+          -10,
+          69
+        ],
+        [
+          22,
+          83
+        ],
+        [
+          32,
+          85
+        ],
+        [
+          40,
+          82
+        ],
+        [
+          53,
+          78
+        ],
+        [
+          66,
+          73
+        ],
+        [
+          91,
+          69
+        ],
+        [
+          130,
+          61
+        ],
+        [
+          143,
+          71
+        ]
+      ]
+    },
+    {
+      "name": "North east road",
+      "width": 7,
+      "points": [
+        [
+          0,
+          172
+        ],
+        [
+          25,
+          152
+        ],
+        [
+          53,
+          153
+        ],
+        [
+          87,
+          154
+        ],
+        [
+          105,
+          149
+        ],
+        [
+          116,
+          134
+        ],
+        [
+          132,
+          116
+        ],
+        [
+          130,
+          107
+        ],
+        [
+          137,
+          96
+        ],
+        [
+          143,
+          95
+        ],
+        [
+          143,
+          71
+        ]
+      ]
+    },
+    {
+      "name": "Keep west passage",
+      "width": 6,
+      "points": [
+        [
+          1,
+          -43
+        ],
+        [
+          -52,
+          -38
+        ],
+        [
+          -75,
+          -21
+        ],
+        [
+          -77,
+          30
+        ],
+        [
+          -67,
+          47
+        ],
+        [
+          -51,
+          50
+        ],
+        [
+          -10,
+          50
+        ],
+        [
+          -10,
+          59
+        ],
+        [
+          -10,
+          69
+        ]
+      ]
+    },
+    {
+      "name": "Keep east passage",
+      "width": 5,
+      "points": [
+        [
+          1,
+          -43
+        ],
+        [
+          44,
+          -35
+        ],
+        [
+          58,
+          -17
+        ],
+        [
+          61,
+          36
+        ],
+        [
+          42,
+          54
+        ],
+        [
+          -10,
+          44
+        ]
+      ]
+    },
+    {
+      "name": "Kitchen connection",
+      "width": 5,
+      "points": [
+        [
+          -98,
+          -143
+        ],
+        [
+          -65,
+          -140
+        ],
+        [
+          -55,
+          -125
+        ],
+        [
+          -51,
+          -105
+        ],
+        [
+          -62,
+          -75
+        ],
+        [
+          1,
+          -75
+        ]
+      ]
+    },
+    {
+      "name": "Hall entrance",
+      "width": 5,
+      "points": [
+        [
+          -10,
+          -149
+        ],
+        [
+          -13,
+          -140
+        ]
+      ]
+    },
+    {
+      "name": "Family entrance",
+      "width": 5,
+      "points": [
+        [
+          72,
+          -156
+        ],
+        [
+          75,
+          -144
+        ],
+        [
+          87,
+          -131
+        ]
+      ]
+    },
+    {
+      "name": "Mill lane",
+      "width": 5,
+      "points": [
+        [
+          -140,
+          -60
+        ],
+        [
+          -158,
+          -62
+        ],
+        [
+          -159,
+          -45
+        ],
+        [
+          -167,
+          -37
+        ],
+        [
+          -181,
+          -37
+        ]
+      ]
+    },
+    {
+      "name": "Godswood path",
+      "width": 3,
+      "points": [
+        [
+          110,
+          -62
+        ],
+        [
+          110,
+          -45
+        ],
+        [
+          104,
+          -31
+        ],
+        [
+          115,
+          -17
+        ],
+        [
+          127,
+          3
+        ],
+        [
+          132,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Stable yard access",
+      "width": 5,
+      "points": [
+        [
+          -111,
+          62
+        ],
+        [
+          -102,
+          77
+        ],
+        [
+          -103,
+          103
+        ]
+      ]
+    },
+    {
+      "name": "Training access",
+      "width": 5,
+      "points": [
+        [
+          -10,
+          69
+        ],
+        [
+          -17,
+          82
+        ],
+        [
+          -17,
+          103
+        ]
+      ]
+    }
+  ]
+}

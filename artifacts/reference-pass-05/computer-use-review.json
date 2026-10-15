@@ -1,0 +1,13 @@
+{
+  "reviewedAt": "2026-10-15T11:41:24.341Z",
+  "application": "Blender 5.2.2 LTS",
+  "source": "winterfell_reference.blend",
+  "method": "Computer Use plugin through @oai/sky",
+  "observations": [
+    "Scene opened in native Blender with packed textures visible.",
+    "Camera overview showed irregular outer walls, central inner keep and eastern Godswood.",
+    "River and southern bridge, northern working yards and southern residential courts were visually inspected.",
+    "Viewport overlays were hidden for a clean material preview."
+  ],
+  "remaining": "Bespoke weathering, foliage complexity and interiors are listed in REVIEW.md."
+}

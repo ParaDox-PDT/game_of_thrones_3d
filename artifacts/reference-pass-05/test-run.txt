@@ -1,0 +1,40 @@
+
+> westeros-explorer@1.0.0 test
+> node --test tests/*.test.mjs --test-reporter=json
+
+✔ a standing player can walk through the open south gate into the courtyard (8.5761ms)
+✔ curtain walls stop a player, including one huge movement frame (5.0944ms)
+✔ towers and keep block entry without blocking tangential sliding (1.8932ms)
+✔ east stair treads support gradual ascent and connect to the curtain walk (5.1274ms)
+✔ world bounds clamp movement and diagonal motion stays finite (16.3393ms)
+✔ overhead gate bridge allows a capsule beneath but its towers stay solid (0.3071ms)
+✔ Reference route: South approach (89.6081ms)
+✔ Reference route: Western ring lane (287.0551ms)
+✔ Reference route: Eastern ring lane (178.0738ms)
+✔ Reference route: Northern cross road (118.348ms)
+✔ Reference route: North east road (90.4231ms)
+✔ Reference route: Keep west passage (102.6758ms)
+✔ Reference route: Keep east passage (91.4806ms)
+✔ Reference route: Kitchen connection (75.6112ms)
+✔ Reference route: Hall entrance (4.2028ms)
+✔ Reference route: Family entrance (14.2866ms)
+✔ Reference route: Mill lane (27.237ms)
+✔ Reference route: Godswood path (44.1288ms)
+✔ Reference route: Stable yard access (19.5486ms)
+✔ Reference route: Training access (16.3133ms)
+✔ Rotated building collision follows its orientation (0.3627ms)
+✔ Oblique walls prevent tunnelling through a large movement frame (0.5904ms)
+✔ Bridge deck supports the river crossing at full human height (78.2442ms)
+✔ Inner stair climbs to the wall and its landing (19.8046ms)
+✔ Outer stair reaches the perimeter walk (22.1947ms)
+✔ terrain height supports bilinear sampling in glTF X/Z coordinates (0.6824ms)
+✔ grounded capsule follows continuous terrain height (0.2307ms)
+✔ walk surfaces remain above terrain and respect the step allowance (0.1508ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1356.0317

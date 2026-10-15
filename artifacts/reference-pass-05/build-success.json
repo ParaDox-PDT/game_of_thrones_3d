@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "blender": "5.2.2 LTS",
+  "elapsedSeconds": 553,
+  "blend": "D:\\my_projects\\GOT\\artifacts\\reference-pass-05\\winterfell_reference.blend",
+  "modules": 23,
+  "stats": {
+    "windows": 1127,
+    "doors": 35,
+    "roofVariants": {
+      "gable": 72,
+      "clerestory": 4,
+      "hipped": 3
+    },
+    "buildings": 35,
+    "towers": 46,
+    "trees": 501,
+    "barrels": 72,
+    "carts": 7,
+    "snowBanks": 340,
+    "triangles": 2796638,
+    "exportBytes": 33535588,
+    "sourceObjects": 77663
+  },
+  "optimized": true
+}

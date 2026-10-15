@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:4175/",
+  "createdAt": "2026-10-15T11:36:48.940Z",
+  "initial": {
+    "fps": 23,
+    "calls": 294,
+    "triangles": 5592556,
+    "position": [
+      0,
+      4.387989405943351,
+      306
+    ],
+    "locked": false,
+    "mode": "orbit",
+    "place": "Fortress",
+    "cameraType": "PerspectiveCamera",
+    "loaded": true,
+    "renderer": "WebKit WebGL",
+    "heap": 338694286
+  },
+  "courtyard": {
+    "fps": 60,
+    "calls": 256,
+    "triangles": 5429722,
+    "position": [
+      0,
+      3.8703920000000087,
+      168.26799999999858
+    ],
+    "locked": true,
+    "mode": "walk",
+    "place": "Gatehouse",
+    "cameraType": "PerspectiveCamera",
+    "loaded": true
+  },
+  "hallFacadeStop": {
+    "fps": 60,
+    "calls": 249,
+    "triangles": 5325936,
+    "position": [
+      0,
+      4.136655199999925,
+      123.89080000001243
+    ],
+    "locked": true,
+    "mode": "walk",
+    "place": "Gatehouse",
+    "cameraType": "PerspectiveCamera",
+    "loaded": true
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "width": 390,
+    "canvasWidth": 390
+  },
+  "errors": [],
+  "failures": [],
+  "notes": "Headless Chrome on this workstation; FPS is measured locally and is not a hardware guarantee."
+}

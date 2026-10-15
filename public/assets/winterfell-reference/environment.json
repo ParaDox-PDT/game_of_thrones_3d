@@ -1,0 +1,15 @@
+{
+  "background": "#9baab7",
+  "fog": {
+    "density": 0.00065
+  },
+  "hemisphere": {
+    "sky": "#d6e4ee",
+    "ground": "#646361",
+    "intensity": 1.25
+  },
+  "sun": {
+    "color": "#e4efff",
+    "intensity": 2.2
+  }
+}

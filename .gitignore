@@ -12,3 +12,5 @@ artifacts/**/*.log
 artifacts/**/*.blend1
 .env*
 !.env.example
+artifacts/local-review-state/
+artifacts/winterfell-reference-pass-05.zip

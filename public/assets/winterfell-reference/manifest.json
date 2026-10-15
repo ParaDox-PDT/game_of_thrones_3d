@@ -1,0 +1,1271 @@
+{
+  "schemaVersion": 1,
+  "name": "Winterfell — Image A reconstruction",
+  "units": "metres",
+  "north": "-Z",
+  "modules": [
+    {
+      "id": "terrain",
+      "url": "/assets/winterfell-reference/terrain.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 438648,
+      "triangles": 64800,
+      "meshes": 1
+    },
+    {
+      "id": "river",
+      "url": "/assets/winterfell-reference/river.glb",
+      "position": [
+        -190,
+        0,
+        20
+      ],
+      "bytes": 702396,
+      "triangles": 28170,
+      "meshes": 4
+    },
+    {
+      "id": "roads",
+      "url": "/assets/winterfell-reference/roads.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 238968,
+      "triangles": 8968,
+      "meshes": 3
+    },
+    {
+      "id": "outer_walls",
+      "url": "/assets/winterfell-reference/outer_walls.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 2519724,
+      "triangles": 326268,
+      "meshes": 5
+    },
+    {
+      "id": "gatehouses",
+      "url": "/assets/winterfell-reference/gatehouses.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 703272,
+      "triangles": 56940,
+      "meshes": 11
+    },
+    {
+      "id": "inner_walls",
+      "url": "/assets/winterfell-reference/inner_walls.glb",
+      "position": [
+        -10,
+        0,
+        -3
+      ],
+      "bytes": 1615744,
+      "triangles": 191052,
+      "meshes": 10
+    },
+    {
+      "id": "keep",
+      "url": "/assets/winterfell-reference/keep.glb",
+      "position": [
+        -18,
+        0,
+        -4
+      ],
+      "bytes": 2475772,
+      "triangles": 321096,
+      "meshes": 11
+    },
+    {
+      "id": "stables",
+      "url": "/assets/winterfell-reference/stables.glb",
+      "position": [
+        -110,
+        0,
+        -105
+      ],
+      "bytes": 595820,
+      "triangles": 59030,
+      "meshes": 10
+    },
+    {
+      "id": "guest_houses",
+      "url": "/assets/winterfell-reference/guest_houses.glb",
+      "position": [
+        91,
+        0,
+        -111
+      ],
+      "bytes": 860576,
+      "triangles": 91272,
+      "meshes": 8
+    },
+    {
+      "id": "storehouses",
+      "url": "/assets/winterfell-reference/storehouses.glb",
+      "position": [
+        -126,
+        0,
+        -8
+      ],
+      "bytes": 819204,
+      "triangles": 85244,
+      "meshes": 9
+    },
+    {
+      "id": "kitchens",
+      "url": "/assets/winterfell-reference/kitchens.glb",
+      "position": [
+        -90,
+        0,
+        105
+      ],
+      "bytes": 566268,
+      "triangles": 50206,
+      "meshes": 9
+    },
+    {
+      "id": "great_hall",
+      "url": "/assets/winterfell-reference/great_hall.glb",
+      "position": [
+        -13,
+        0,
+        111
+      ],
+      "bytes": 959476,
+      "triangles": 95292,
+      "meshes": 9
+    },
+    {
+      "id": "family_quarters",
+      "url": "/assets/winterfell-reference/family_quarters.glb",
+      "position": [
+        91,
+        0,
+        114
+      ],
+      "bytes": 935364,
+      "triangles": 88926,
+      "meshes": 9
+    },
+    {
+      "id": "maesters_towers",
+      "url": "/assets/winterfell-reference/maesters_towers.glb",
+      "position": [
+        150,
+        0,
+        109
+      ],
+      "bytes": 909132,
+      "triangles": 80362,
+      "meshes": 9
+    },
+    {
+      "id": "mill",
+      "url": "/assets/winterfell-reference/mill.glb",
+      "position": [
+        -181,
+        0,
+        25
+      ],
+      "bytes": 323772,
+      "triangles": 17130,
+      "meshes": 9
+    },
+    {
+      "id": "service_buildings",
+      "url": "/assets/winterfell-reference/service_buildings.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 657572,
+      "triangles": 61734,
+      "meshes": 8
+    },
+    {
+      "id": "bridges",
+      "url": "/assets/winterfell-reference/bridges.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 73932,
+      "triangles": 5200,
+      "meshes": 1
+    },
+    {
+      "id": "defensive_access",
+      "url": "/assets/winterfell-reference/defensive_access.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 109376,
+      "triangles": 4840,
+      "meshes": 2
+    },
+    {
+      "id": "training_yard",
+      "url": "/assets/winterfell-reference/training_yard.glb",
+      "position": [
+        -17,
+        0,
+        -110
+      ],
+      "bytes": 131760,
+      "triangles": 14572,
+      "meshes": 3
+    },
+    {
+      "id": "godswood",
+      "url": "/assets/winterfell-reference/godswood.glb",
+      "position": [
+        120,
+        0,
+        0
+      ],
+      "bytes": 2698336,
+      "triangles": 195452,
+      "meshes": 10
+    },
+    {
+      "id": "landscape",
+      "url": "/assets/winterfell-reference/landscape.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 14508908,
+      "triangles": 918660,
+      "meshes": 4
+    },
+    {
+      "id": "snow_accumulation",
+      "url": "/assets/winterfell-reference/snow_accumulation.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 619348,
+      "triangles": 27200,
+      "meshes": 1
+    },
+    {
+      "id": "distant_ridges",
+      "url": "/assets/winterfell-reference/distant_ridges.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 72220,
+      "triangles": 4224,
+      "meshes": 1
+    }
+  ],
+  "districts": [
+    {
+      "id": "keep",
+      "label": "The Great Keep",
+      "center": [
+        -18,
+        4
+      ],
+      "bounds": [
+        -91,
+        -58,
+        77,
+        75
+      ],
+      "description": "Central cluster of heavy drum towers, roofed ranges and an inner fortified yard."
+    },
+    {
+      "id": "stables",
+      "label": "Stables",
+      "center": [
+        -110,
+        105
+      ],
+      "bounds": [
+        -145,
+        65,
+        -67,
+        139
+      ],
+      "description": "Northwestern working stables enclosing an open horse yard."
+    },
+    {
+      "id": "training_yard",
+      "label": "Training Yard",
+      "center": [
+        -17,
+        110
+      ],
+      "bounds": [
+        -53,
+        75,
+        20,
+        144
+      ],
+      "description": "Open upper central drill ground with practice targets and racks."
+    },
+    {
+      "id": "guest_houses",
+      "label": "Guest Houses",
+      "center": [
+        91,
+        111
+      ],
+      "bounds": [
+        37,
+        70,
+        140,
+        149
+      ],
+      "description": "Separate irregular guest houses northeast of the training yard."
+    },
+    {
+      "id": "storehouses",
+      "label": "Storehouses",
+      "center": [
+        -126,
+        8
+      ],
+      "bounds": [
+        -155,
+        -43,
+        -104,
+        58
+      ],
+      "description": "Western service lane and loading yards near the river mill."
+    },
+    {
+      "id": "godswood",
+      "label": "Godswood",
+      "center": [
+        120,
+        0
+      ],
+      "bounds": [
+        79,
+        -45,
+        157,
+        55
+      ],
+      "description": "Quiet eastern enclosure with ancient pale tree, red leaves, rocks and dark pool."
+    },
+    {
+      "id": "kitchens",
+      "label": "Kitchens",
+      "center": [
+        -90,
+        -105
+      ],
+      "bounds": [
+        -137,
+        -141,
+        -50,
+        -69
+      ],
+      "description": "Southwestern ovens, kitchen ranges, firewood and service courts."
+    },
+    {
+      "id": "great_hall",
+      "label": "Great Hall",
+      "center": [
+        -13,
+        -111
+      ],
+      "bounds": [
+        -48,
+        -139,
+        28,
+        -84
+      ],
+      "description": "Large separate hall south of the keep, with steep roofs and entrance steps."
+    },
+    {
+      "id": "family_quarters",
+      "label": "Family Quarters",
+      "center": [
+        91,
+        -114
+      ],
+      "bounds": [
+        49,
+        -150,
+        132,
+        -79
+      ],
+      "description": "Southeastern residential courtyard with connected domestic ranges."
+    },
+    {
+      "id": "maesters_towers",
+      "label": "Maester's Towers",
+      "center": [
+        150,
+        -109
+      ],
+      "bounds": [
+        135,
+        -142,
+        166,
+        -68
+      ],
+      "description": "Narrow eastern tower complex linked by covered galleries."
+    },
+    {
+      "id": "mill",
+      "label": "River Mill",
+      "center": [
+        -181,
+        -25
+      ],
+      "bounds": [
+        -199,
+        -44,
+        -169,
+        -7
+      ],
+      "description": "Mill outside the western wall, waterwheel facing the river."
+    }
+  ],
+  "stats": {
+    "windows": 1127,
+    "doors": 35,
+    "roofVariants": {
+      "gable": 72,
+      "clerestory": 4,
+      "hipped": 3
+    },
+    "buildings": 35,
+    "towers": 46,
+    "trees": 501,
+    "barrels": 72,
+    "carts": 7,
+    "snowBanks": 340,
+    "triangles": 2796638,
+    "exportBytes": 33535588,
+    "sourceObjects": 77663
+  },
+  "layout": {
+    "outerWall": [
+      [
+        -157,
+        -148
+      ],
+      [
+        -168,
+        -20
+      ],
+      [
+        -155,
+        123
+      ],
+      [
+        -68,
+        158
+      ],
+      [
+        -25,
+        172
+      ],
+      [
+        25,
+        171
+      ],
+      [
+        100,
+        165
+      ],
+      [
+        143,
+        111
+      ],
+      [
+        174,
+        89
+      ],
+      [
+        181,
+        15
+      ],
+      [
+        169,
+        -93
+      ],
+      [
+        180,
+        -149
+      ],
+      [
+        113,
+        -172
+      ],
+      [
+        27,
+        -187
+      ],
+      [
+        -29,
+        -190
+      ],
+      [
+        -101,
+        -173
+      ]
+    ],
+    "keepWall": [
+      [
+        -91,
+        -34
+      ],
+      [
+        -94,
+        52
+      ],
+      [
+        -44,
+        57
+      ],
+      [
+        16,
+        60
+      ],
+      [
+        43,
+        75
+      ],
+      [
+        79,
+        62
+      ],
+      [
+        76,
+        -32
+      ],
+      [
+        47,
+        -57
+      ],
+      [
+        -39,
+        -58
+      ],
+      [
+        -75,
+        -47
+      ]
+    ],
+    "roads": [
+      {
+        "name": "South approach",
+        "width": 11,
+        "points": [
+          [
+            0,
+            -310
+          ],
+          [
+            0,
+            -267
+          ],
+          [
+            0,
+            -229
+          ],
+          [
+            0,
+            -189
+          ],
+          [
+            0,
+            -163
+          ],
+          [
+            -10,
+            -149
+          ]
+        ]
+      },
+      {
+        "name": "Western ring lane",
+        "width": 8,
+        "points": [
+          [
+            -10,
+            -149
+          ],
+          [
+            -55,
+            -148
+          ],
+          [
+            -98,
+            -143
+          ],
+          [
+            -135,
+            -114
+          ],
+          [
+            -140,
+            -60
+          ],
+          [
+            -123,
+            -45
+          ],
+          [
+            -106,
+            -30
+          ],
+          [
+            -104,
+            30
+          ],
+          [
+            -111,
+            62
+          ],
+          [
+            -62,
+            72
+          ],
+          [
+            -58,
+            114
+          ],
+          [
+            -36,
+            152
+          ],
+          [
+            -18,
+            151
+          ],
+          [
+            0,
+            154
+          ],
+          [
+            0,
+            172
+          ],
+          [
+            0,
+            232
+          ]
+        ]
+      },
+      {
+        "name": "Eastern ring lane",
+        "width": 8,
+        "points": [
+          [
+            -10,
+            -149
+          ],
+          [
+            39,
+            -151
+          ],
+          [
+            72,
+            -156
+          ],
+          [
+            125,
+            -153
+          ],
+          [
+            143,
+            -127
+          ],
+          [
+            135,
+            -70
+          ],
+          [
+            110,
+            -62
+          ],
+          [
+            76,
+            -49
+          ],
+          [
+            55,
+            -68
+          ],
+          [
+            30,
+            -74
+          ],
+          [
+            1,
+            -75
+          ],
+          [
+            1,
+            -58
+          ],
+          [
+            1,
+            -43
+          ]
+        ]
+      },
+      {
+        "name": "Northern cross road",
+        "width": 7,
+        "points": [
+          [
+            -111,
+            62
+          ],
+          [
+            -62,
+            72
+          ],
+          [
+            -10,
+            69
+          ],
+          [
+            22,
+            83
+          ],
+          [
+            32,
+            85
+          ],
+          [
+            40,
+            82
+          ],
+          [
+            53,
+            78
+          ],
+          [
+            66,
+            73
+          ],
+          [
+            91,
+            69
+          ],
+          [
+            130,
+            61
+          ],
+          [
+            143,
+            71
+          ]
+        ]
+      },
+      {
+        "name": "North east road",
+        "width": 7,
+        "points": [
+          [
+            0,
+            172
+          ],
+          [
+            25,
+            152
+          ],
+          [
+            53,
+            153
+          ],
+          [
+            87,
+            154
+          ],
+          [
+            105,
+            149
+          ],
+          [
+            116,
+            134
+          ],
+          [
+            132,
+            116
+          ],
+          [
+            130,
+            107
+          ],
+          [
+            137,
+            96
+          ],
+          [
+            143,
+            95
+          ],
+          [
+            143,
+            71
+          ]
+        ]
+      },
+      {
+        "name": "Keep west passage",
+        "width": 6,
+        "points": [
+          [
+            1,
+            -43
+          ],
+          [
+            -52,
+            -38
+          ],
+          [
+            -75,
+            -21
+          ],
+          [
+            -77,
+            30
+          ],
+          [
+            -67,
+            47
+          ],
+          [
+            -51,
+            50
+          ],
+          [
+            -10,
+            50
+          ],
+          [
+            -10,
+            59
+          ],
+          [
+            -10,
+            69
+          ]
+        ]
+      },
+      {
+        "name": "Keep east passage",
+        "width": 5,
+        "points": [
+          [
+            1,
+            -43
+          ],
+          [
+            44,
+            -35
+          ],
+          [
+            58,
+            -17
+          ],
+          [
+            61,
+            36
+          ],
+          [
+            42,
+            54
+          ],
+          [
+            -10,
+            44
+          ]
+        ]
+      },
+      {
+        "name": "Kitchen connection",
+        "width": 5,
+        "points": [
+          [
+            -98,
+            -143
+          ],
+          [
+            -65,
+            -140
+          ],
+          [
+            -55,
+            -125
+          ],
+          [
+            -51,
+            -105
+          ],
+          [
+            -62,
+            -75
+          ],
+          [
+            1,
+            -75
+          ]
+        ]
+      },
+      {
+        "name": "Hall entrance",
+        "width": 5,
+        "points": [
+          [
+            -10,
+            -149
+          ],
+          [
+            -13,
+            -140
+          ]
+        ]
+      },
+      {
+        "name": "Family entrance",
+        "width": 5,
+        "points": [
+          [
+            72,
+            -156
+          ],
+          [
+            75,
+            -144
+          ],
+          [
+            87,
+            -131
+          ]
+        ]
+      },
+      {
+        "name": "Mill lane",
+        "width": 5,
+        "points": [
+          [
+            -140,
+            -60
+          ],
+          [
+            -158,
+            -62
+          ],
+          [
+            -159,
+            -45
+          ],
+          [
+            -167,
+            -37
+          ],
+          [
+            -181,
+            -37
+          ]
+        ]
+      },
+      {
+        "name": "Godswood path",
+        "width": 3,
+        "points": [
+          [
+            110,
+            -62
+          ],
+          [
+            110,
+            -45
+          ],
+          [
+            104,
+            -31
+          ],
+          [
+            115,
+            -17
+          ],
+          [
+            127,
+            3
+          ],
+          [
+            132,
+            24
+          ]
+        ]
+      },
+      {
+        "name": "Stable yard access",
+        "width": 5,
+        "points": [
+          [
+            -111,
+            62
+          ],
+          [
+            -102,
+            77
+          ],
+          [
+            -103,
+            103
+          ]
+        ]
+      },
+      {
+        "name": "Training access",
+        "width": 5,
+        "points": [
+          [
+            -10,
+            69
+          ],
+          [
+            -17,
+            82
+          ],
+          [
+            -17,
+            103
+          ]
+        ]
+      }
+    ]
+  },
+  "views": {
+    "01_reference_overview": {
+      "position": [
+        0,
+        720,
+        470
+      ],
+      "target": [
+        0,
+        635.4004516601562,
+        416.68096923828125
+      ]
+    },
+    "02_top_down": {
+      "position": [
+        0,
+        850,
+        20
+      ],
+      "target": [
+        0,
+        750,
+        20
+      ]
+    },
+    "03_south_gate": {
+      "position": [
+        35,
+        20,
+        279
+      ],
+      "target": [
+        1.3725662231445312,
+        18.078441619873047,
+        184.84320068359375
+      ]
+    },
+    "04_keep": {
+      "position": [
+        -68,
+        15,
+        69
+      ],
+      "target": [
+        -10.289497375488281,
+        29.427650451660156,
+        -11.382469177246094
+      ]
+    },
+    "05_godswood": {
+      "position": [
+        143,
+        9,
+        30
+      ],
+      "target": [
+        87.55818176269531,
+        23.46310043334961,
+        -51.95745086669922
+      ]
+    },
+    "06_training_yard": {
+      "position": [
+        -30,
+        7,
+        -78
+      ],
+      "target": [
+        0.37906646728515625,
+        11.050511360168457,
+        -173.187744140625
+      ]
+    },
+    "07_river_mill": {
+      "position": [
+        -245,
+        16,
+        63
+      ],
+      "target": [
+        -159.16983032226562,
+        8.197257041931152,
+        12.282176971435547
+      ]
+    },
+    "08_great_hall": {
+      "position": [
+        32,
+        10,
+        154
+      ],
+      "target": [
+        -39.41957092285156,
+        14.761308670043945,
+        84.16753387451172
+      ]
+    }
+  },
+  "torches": [
+    {
+      "position": [
+        -8,
+        5.455992698669434,
+        177
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    },
+    {
+      "position": [
+        8,
+        5.420007228851318,
+        177
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    },
+    {
+      "position": [
+        -8,
+        7.482232093811035,
+        -162
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    },
+    {
+      "position": [
+        8,
+        7.46176815032959,
+        -162
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    },
+    {
+      "position": [
+        -6,
+        5.587821960449219,
+        64
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    },
+    {
+      "position": [
+        7,
+        5.648861408233643,
+        64
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    },
+    {
+      "position": [
+        -17,
+        6.304792404174805,
+        -64
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    },
+    {
+      "position": [
+        -3,
+        6.369898796081543,
+        -64
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    },
+    {
+      "position": [
+        -40,
+        6.087924480438232,
+        32
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    },
+    {
+      "position": [
+        23,
+        6.451937198638916,
+        30
+      ],
+      "color": "#ff7833",
+      "intensity": 35,
+      "distance": 13
+    }
+  ],
+  "compression": {
+    "geometry": "KHR_draco_mesh_compression",
+    "textures": "EXT_texture_webp",
+    "positionQuantizationBits": 18,
+    "decoder": "/assets/draco/"
+  }
+}

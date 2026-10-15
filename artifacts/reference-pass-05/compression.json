@@ -1,0 +1,117 @@
+[
+  {
+    "id": "terrain",
+    "before": 6254124,
+    "after": 438648
+  },
+  {
+    "id": "river",
+    "before": 5367948,
+    "after": 702396
+  },
+  {
+    "id": "roads",
+    "before": 4277184,
+    "after": 238968
+  },
+  {
+    "id": "outer_walls",
+    "before": 40744496,
+    "after": 2519724
+  },
+  {
+    "id": "gatehouses",
+    "before": 13321444,
+    "after": 703272
+  },
+  {
+    "id": "inner_walls",
+    "before": 28145380,
+    "after": 1615744
+  },
+  {
+    "id": "keep",
+    "before": 43380512,
+    "after": 2475772
+  },
+  {
+    "id": "stables",
+    "before": 12856396,
+    "after": 595820
+  },
+  {
+    "id": "guest_houses",
+    "before": 15884728,
+    "after": 860576
+  },
+  {
+    "id": "storehouses",
+    "before": 15575040,
+    "after": 819204
+  },
+  {
+    "id": "kitchens",
+    "before": 11875712,
+    "after": 566268
+  },
+  {
+    "id": "great_hall",
+    "before": 17138352,
+    "after": 959476
+  },
+  {
+    "id": "family_quarters",
+    "before": 16761708,
+    "after": 935364
+  },
+  {
+    "id": "maesters_towers",
+    "before": 15503748,
+    "after": 909132
+  },
+  {
+    "id": "mill",
+    "before": 8115504,
+    "after": 323772
+  },
+  {
+    "id": "service_buildings",
+    "before": 12470672,
+    "after": 657572
+  },
+  {
+    "id": "bridges",
+    "before": 1379876,
+    "after": 73932
+  },
+  {
+    "id": "defensive_access",
+    "before": 2183676,
+    "after": 109376
+  },
+  {
+    "id": "training_yard",
+    "before": 3088568,
+    "after": 131760
+  },
+  {
+    "id": "godswood",
+    "before": 27521156,
+    "after": 2698336
+  },
+  {
+    "id": "landscape",
+    "before": 98674108,
+    "after": 14508908
+  },
+  {
+    "id": "snow_accumulation",
+    "before": 3747120,
+    "after": 619348
+  },
+  {
+    "id": "distant_ridges",
+    "before": 1110880,
+    "after": 72220
+  }
+]

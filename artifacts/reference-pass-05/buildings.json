@@ -1,0 +1,527 @@
+[
+  {
+    "name": "KeepMainRange",
+    "module": "keep",
+    "center": [
+      -19,
+      8
+    ],
+    "size": [
+      49,
+      48
+    ],
+    "yaw": 0,
+    "height": 25,
+    "ground": 2.9326418268929486
+  },
+  {
+    "name": "KeepSouthernRange",
+    "module": "keep",
+    "center": [
+      -15,
+      -17
+    ],
+    "size": [
+      18,
+      53
+    ],
+    "yaw": 1.5707963267948966,
+    "height": 16,
+    "ground": 2.8077810574870865
+  },
+  {
+    "name": "WestStableRange",
+    "module": "stables",
+    "center": [
+      -137,
+      105
+    ],
+    "size": [
+      12,
+      56
+    ],
+    "yaw": 0.015,
+    "height": 6.4,
+    "ground": 3.4562228407863693
+  },
+  {
+    "name": "NorthStableRange",
+    "module": "stables",
+    "center": [
+      -111,
+      133
+    ],
+    "size": [
+      12,
+      55
+    ],
+    "yaw": 1.5707963267948966,
+    "height": 6.8,
+    "ground": 3.7489936536190203
+  },
+  {
+    "name": "EastStableRange",
+    "module": "stables",
+    "center": [
+      -80,
+      106
+    ],
+    "size": [
+      11,
+      46
+    ],
+    "yaw": 0.015,
+    "height": 6.1,
+    "ground": 3.4779597970623657
+  },
+  {
+    "name": "StableLodge",
+    "module": "stables",
+    "center": [
+      -139,
+      68
+    ],
+    "size": [
+      11,
+      13
+    ],
+    "yaw": 0,
+    "height": 7,
+    "ground": 3.0960661904308617
+  },
+  {
+    "name": "GuestHouse0",
+    "module": "guest_houses",
+    "center": [
+      53,
+      128
+    ],
+    "size": [
+      15,
+      19
+    ],
+    "yaw": -0.13,
+    "height": 8.5,
+    "ground": 3.8168365937312685
+  },
+  {
+    "name": "GuestHouse1",
+    "module": "guest_houses",
+    "center": [
+      84,
+      131
+    ],
+    "size": [
+      17,
+      23
+    ],
+    "yaw": 0.08,
+    "height": 9.5,
+    "ground": 3.839766188677844
+  },
+  {
+    "name": "GuestHouse2",
+    "module": "guest_houses",
+    "center": [
+      115,
+      112
+    ],
+    "size": [
+      16,
+      22
+    ],
+    "yaw": -0.18,
+    "height": 8.5,
+    "ground": 3.8220791357307746
+  },
+  {
+    "name": "GuestHouse3",
+    "module": "guest_houses",
+    "center": [
+      49,
+      100
+    ],
+    "size": [
+      14,
+      18
+    ],
+    "yaw": 0.12,
+    "height": 9.5,
+    "ground": 3.7272257520376053
+  },
+  {
+    "name": "GuestHouse4",
+    "module": "guest_houses",
+    "center": [
+      79,
+      93
+    ],
+    "size": [
+      15,
+      21
+    ],
+    "yaw": 0.02,
+    "height": 8.5,
+    "ground": 3.7652866812614953
+  },
+  {
+    "name": "GuestHouse5",
+    "module": "guest_houses",
+    "center": [
+      116,
+      77
+    ],
+    "size": [
+      16,
+      22
+    ],
+    "yaw": 0.2,
+    "height": 9.5,
+    "ground": 3.7602408639223084
+  },
+  {
+    "name": "Storehouse0",
+    "module": "storehouses",
+    "center": [
+      -130,
+      43
+    ],
+    "size": [
+      14,
+      31
+    ],
+    "yaw": 1.5707963267948966,
+    "height": 7.3,
+    "ground": 2.8661155634247395
+  },
+  {
+    "name": "Storehouse1",
+    "module": "storehouses",
+    "center": [
+      -127,
+      13
+    ],
+    "size": [
+      14,
+      31
+    ],
+    "yaw": 1.5957963267948965,
+    "height": 7.3,
+    "ground": 2.638924405209673
+  },
+  {
+    "name": "Storehouse2",
+    "module": "storehouses",
+    "center": [
+      -127,
+      -15
+    ],
+    "size": [
+      14,
+      31
+    ],
+    "yaw": 1.6207963267948966,
+    "height": 7.3,
+    "ground": 2.472418361838372
+  },
+  {
+    "name": "WarehouseOffice",
+    "module": "storehouses",
+    "center": [
+      -147,
+      -48
+    ],
+    "size": [
+      11,
+      16
+    ],
+    "yaw": 0,
+    "height": 7,
+    "ground": 2.360681317126126
+  },
+  {
+    "name": "KitchenRange",
+    "module": "kitchens",
+    "center": [
+      -91,
+      -100
+    ],
+    "size": [
+      18,
+      40
+    ],
+    "yaw": -0.1,
+    "height": 8.5,
+    "ground": 2.206098843864119
+  },
+  {
+    "name": "Bakehouse",
+    "module": "kitchens",
+    "center": [
+      -120,
+      -88
+    ],
+    "size": [
+      14,
+      20
+    ],
+    "yaw": 0.12,
+    "height": 7.6,
+    "ground": 2.217196143820676
+  },
+  {
+    "name": "Scullery",
+    "module": "kitchens",
+    "center": [
+      -75,
+      -124
+    ],
+    "size": [
+      11,
+      17
+    ],
+    "yaw": 0.05,
+    "height": 6.2,
+    "ground": 2.1763990476601447
+  },
+  {
+    "name": "GreatHall",
+    "module": "great_hall",
+    "center": [
+      -13,
+      -111
+    ],
+    "size": [
+      25,
+      63
+    ],
+    "yaw": 1.5707963267948966,
+    "height": 13,
+    "ground": 2.3065901401463
+  },
+  {
+    "name": "FamilyNorthRange",
+    "module": "family_quarters",
+    "center": [
+      87,
+      -88
+    ],
+    "size": [
+      13,
+      53
+    ],
+    "yaw": 1.6057963267948965,
+    "height": 9.8,
+    "ground": 2.709353088969626
+  },
+  {
+    "name": "FamilyWestRange",
+    "module": "family_quarters",
+    "center": [
+      58,
+      -113
+    ],
+    "size": [
+      12,
+      37
+    ],
+    "yaw": -0.02,
+    "height": 9.2,
+    "ground": 2.4257539230775476
+  },
+  {
+    "name": "FamilyEastRange",
+    "module": "family_quarters",
+    "center": [
+      116,
+      -115
+    ],
+    "size": [
+      14,
+      42
+    ],
+    "yaw": 0.06,
+    "height": 10.4,
+    "ground": 2.4459932473855326
+  },
+  {
+    "name": "FamilySouthLodge",
+    "module": "family_quarters",
+    "center": [
+      102,
+      -139
+    ],
+    "size": [
+      12,
+      23
+    ],
+    "yaw": 1.5707963267948966,
+    "height": 7.5,
+    "ground": 2.1851968847382053
+  },
+  {
+    "name": "MaestersGallery",
+    "module": "maesters_towers",
+    "center": [
+      151,
+      -111
+    ],
+    "size": [
+      5.5,
+      54
+    ],
+    "yaw": 0,
+    "height": 12,
+    "ground": 2.4699618828927163
+  },
+  {
+    "name": "RiverMill",
+    "module": "mill",
+    "center": [
+      -181,
+      -25
+    ],
+    "size": [
+      15,
+      22
+    ],
+    "yaw": 0.015,
+    "height": 8.7,
+    "ground": 2.168887214348778
+  },
+  {
+    "name": "ServiceWorkshop0",
+    "module": "service_buildings",
+    "center": [
+      -143,
+      -119
+    ],
+    "size": [
+      11,
+      20
+    ],
+    "yaw": -0.08,
+    "height": 5.7,
+    "ground": 2.177668757407606
+  },
+  {
+    "name": "ServiceWorkshop1",
+    "module": "service_buildings",
+    "center": [
+      -118,
+      -158
+    ],
+    "size": [
+      13,
+      18
+    ],
+    "yaw": -0.3,
+    "height": 5.7,
+    "ground": 2.12604382757988
+  },
+  {
+    "name": "ServiceWorkshop2",
+    "module": "service_buildings",
+    "center": [
+      -73,
+      -161
+    ],
+    "size": [
+      12,
+      16
+    ],
+    "yaw": 0.15,
+    "height": 5.7,
+    "ground": 2.10864742269532
+  },
+  {
+    "name": "ServiceWorkshop3",
+    "module": "service_buildings",
+    "center": [
+      -46,
+      -167
+    ],
+    "size": [
+      11,
+      13
+    ],
+    "yaw": -0.1,
+    "height": 5.7,
+    "ground": 2.067287539559903
+  },
+  {
+    "name": "ServiceWorkshop4",
+    "module": "service_buildings",
+    "center": [
+      38,
+      -162
+    ],
+    "size": [
+      10,
+      14
+    ],
+    "yaw": 0.12,
+    "height": 5.7,
+    "ground": 1.9814707972875976
+  },
+  {
+    "name": "ServiceWorkshop5",
+    "module": "service_buildings",
+    "center": [
+      137,
+      -48
+    ],
+    "size": [
+      12,
+      17
+    ],
+    "yaw": 0.25,
+    "height": 5.7,
+    "ground": 3.0827837944832606
+  },
+  {
+    "name": "ServiceWorkshop6",
+    "module": "service_buildings",
+    "center": [
+      160,
+      56
+    ],
+    "size": [
+      11,
+      13
+    ],
+    "yaw": 0.1,
+    "height": 5.7,
+    "ground": 3.6348478111146814
+  },
+  {
+    "name": "ServiceWorkshop7",
+    "module": "service_buildings",
+    "center": [
+      -59,
+      148
+    ],
+    "size": [
+      10,
+      14
+    ],
+    "yaw": -0.18,
+    "height": 5.7,
+    "ground": 3.9060742207303596
+  },
+  {
+    "name": "ServiceWorkshop8",
+    "module": "service_buildings",
+    "center": [
+      -135,
+      151
+    ],
+    "size": [
+      11,
+      17
+    ],
+    "yaw": 1.25,
+    "height": 5.7,
+    "ground": 3.944259435499021
+  }
+]
