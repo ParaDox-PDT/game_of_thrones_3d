@@ -1,0 +1,10 @@
+{
+  "site_id": "45d536a5-6323-4b19-bd0f-becd5a667d4e",
+  "site_name": "game-of-thrones-3d",
+  "deploy_id": "6ad06f542dc60af976502df7",
+  "deploy_url": "https://6ad06f542dc60af976502df7--game-of-thrones-3d.netlify.app",
+  "logs": "https://app.netlify.com/projects/game-of-thrones-3d/deploys/6ad06f542dc60af976502df7",
+  "function_logs": "https://app.netlify.com/projects/game-of-thrones-3d/logs/functions",
+  "edge_function_logs": "https://app.netlify.com/projects/game-of-thrones-3d/logs/edge-functions",
+  "url": "https://game-of-thrones-3d.netlify.app"
+}

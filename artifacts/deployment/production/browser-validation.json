@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "url": "https://game-of-thrones-3d.netlify.app/",
+  "createdAt": "2026-10-15T06:16:07.051Z",
+  "initial": {
+    "fps": 38,
+    "calls": 48,
+    "triangles": 557236,
+    "position": [
+      0,
+      1.92,
+      125
+    ],
+    "locked": false,
+    "mode": "orbit",
+    "loaded": true,
+    "renderer": "WebKit WebGL",
+    "heap": 111009871
+  },
+  "courtyard": {
+    "fps": 60,
+    "calls": 48,
+    "triangles": 557236,
+    "position": [
+      0,
+      1.92,
+      74.9520000000008
+    ],
+    "locked": true,
+    "mode": "walk",
+    "loaded": true
+  },
+  "innerWallStop": {
+    "fps": 60,
+    "calls": 48,
+    "triangles": 557236,
+    "position": [
+      0,
+      1.92,
+      30.041599999998983
+    ],
+    "locked": true,
+    "mode": "walk",
+    "loaded": true
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "width": 390,
+    "canvasWidth": 390
+  },
+  "errors": [],
+  "failures": [],
+  "notes": "Headless Chrome on this workstation; FPS is measured locally and is not a hardware guarantee."
+}

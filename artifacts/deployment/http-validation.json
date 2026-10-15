@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "url": "https://game-of-thrones-3d.netlify.app",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": "13736"
+    },
+    {
+      "path": "/assets/winterfell-environment/manifest.json",
+      "status": 200,
+      "contentType": "application/json",
+      "bytes": "2106"
+    },
+    {
+      "path": "/assets/winterfell-environment/winterfell_fortress.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": "91679620"
+    },
+    {
+      "path": "/assets/winterfell-environment/winterfell_fortress_lod1.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": "32352000"
+    }
+  ],
+  "scene": "Northern Fortress-Town \u00b7 Winter Atmosphere Pass 04",
+  "pines": 412
+}
